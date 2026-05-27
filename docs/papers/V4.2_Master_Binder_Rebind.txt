@@ -1,0 +1,119 @@
+V4.2 Master Binder Rebind Summary
+File: 26.05.26.18_V4_2_Master_Binder_6D_Projection_Framework_Toy_Models_1_to_5_Rev_A.pdf
+Date: 2026.05.26
+Purpose: consolidated continuation baseline for Toy Models 1-5.
+
+STATUS
+Speculative research binder. Structural compatibility toy models only.
+No claim of physical proof.
+
+ARCHITECTURE
+Original speculative 6D framework with:
+- observable 3S+1T sector
+- hidden/relational 3T+1S sector
+- reciprocal projection / collapse idea
+
+WORK PROTOCOL
+User supplies intuition, architecture, pattern recognition, and boundary conditions.
+R/Q Twin workflow formalizes, tests, rejects failures, and consolidates.
+User should not be a prompt courier or secretary between engines.
+
+TRACK 1 - GRAPH GEOMETRY
+Core:
+relational density -> edge cost -> shortest-path geometry.
+Results:
+delay analogue, path focusing analogue, orbit-like dynamic capture.
+Guardrail:
+not General Relativity, graph operational analogue only.
+
+TRACK 2 - QUANTUM STATES
+Core:
+3T orientation -> 1T amplitude projection.
+Results:
+Born-rule compatibility, no-signalling checks, decoherence, measurement update,
+quantum erasure, macroscopic irreversibility.
+Important failure:
+naive factorized hidden-vector Bell model failed correctly.
+Guardrail:
+not a derivation of quantum mechanics, QFT, Standard Model, or hidden variables.
+
+TRACK 3 - QUANTUM DYNAMICS
+Core:
+hidden transverse 2T phase plane -> complex amplitudes and phase rotation.
+Results:
+Schrodinger-type time evolution, kinetic operator structure, scalar potential,
+gauge connection, relativistic Dirac/spinor structural bridge.
+Guardrail:
+not QFT, no derivation of mass, charge, hbar, particle spectrum, or Standard Model.
+
+TRACK 4 - GRAVITY AND SPACETIME
+Core:
+relational distance matrix -> metric candidate;
+directed 1T causality -> Lorentzian signature;
+metric variation -> curvature;
+gauge-constrained spin-2 action -> trace-reversed weak-field response.
+Key equations:
+partial^mu hbar_mu_nu = 0
+nabla^2 hbar_mu_nu = -T_mu_nu
+h_mu_nu = hbar_mu_nu - eta_mu_nu hbar_trace/(D-2)
+Guardrail:
+structural compatibility with linear weak-field spin-2 layer only.
+No nonlinear Einstein-Hilbert action, full GR, Newton G, or physical stress-energy derived.
+
+TRACK 5 - DARK SECTOR
+5B:
+A[Phi] = 2 pi integral r [1/2 (dPhi/dr)^2 - S Phi] dr
+=> (1/r) d/dr [r dPhi/dr] = -S
+outside source: r dPhi/dr = constant
+=> a_rel ~ 1/r
+=> v_rel^2 constant
+=> M_rel ~ r
+
+5C/5D:
+BTF-like scaling requires:
+T_edge^2 = A_R G M_b
+v_flat^4 = A_R G M_b
+
+5E:
+local-global bridge:
+A_R = xi c H_C
+rho_C constant
+p_C = -rho_C
+
+5F:
+Dark Sector closed as structural compatibility only.
+No real galaxy/lensing/CMB/cluster/structure data tested.
+
+STRONGEST DEFENSIBLE STATEMENT
+The V4.2 framework has produced a coherent chain of toy-model structural
+compatibility results across graph geometry, quantum states/dynamics,
+weak-field gravity, and selected local/global dark-sector signatures.
+
+STRICT NON-CLAIMS
+Do not claim:
+- physical 3T proven
+- full QM derived
+- Standard Model derived
+- QFT derived
+- full nonlinear GR derived
+- Einstein-Hilbert action derived
+- physical constants derived
+- dark matter solved
+- dark energy solved
+- Lambda-CDM replaced
+- particle dark matter false
+- real observational data fitted
+- physical validation achieved
+
+PUBLICATION / GITHUB STATUS
+Master Binder complete.
+GitHub release not yet recommended until:
+1) plain README with strict guardrails,
+2) reproducible code package,
+3) 5G real-galaxy fitting protocol,
+4) no-hidden-freedom parameter rules,
+5) first public dataset test.
+
+RECOMMENDED NEXT
+Toy Model 5G - Minimal Real-Galaxy Rotation-Curve Fitting Protocol.
+Alternative: prepare GitHub README draft based on this binder before any data fitting.

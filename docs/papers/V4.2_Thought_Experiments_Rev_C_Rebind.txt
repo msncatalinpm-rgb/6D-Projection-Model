@@ -1,0 +1,48 @@
+V4.2 Thought Experiment Notes - Rev C Rebind Summary
+Date: 2026.05.27
+Source updated: 26.05.24 V4_2_Thought_Experiment_Notes_UPDATED_2026_05_24-1.pdf
+New file: 26.05.27.1_V4_2_Thought_Experiment_Notes_UPDATED_2026_05_27_Rev_C.pdf
+
+Purpose:
+This Rev C update appends the 2026.05.27 morning thought-experiment material to the Rev B file.
+
+Added sections:
+17. Rev C Purpose - 2026.05.27 Morning Update
+18. Breathing Universe Clarification
+19. Thought Experiment E2 - Entanglement Redistribution Across a Coupling Knot
+20. Universal Relational Reweighting Hypothesis
+21. Special Relativity Bridge Note - c and E = mc^2
+22. Updated Thought-Experiment Chain
+23. Updated Glossary Additions
+24. Updated Rebind Prompt
+25. Final Rev C Guardrail
+
+Breathing Universe clarification:
+The present universe is best described as:
+- geometrical inhale: 3S expands; a(t) increases
+- thermodynamic exhale: free energy is spent; entropy increases
+
+Key terms:
+a(t) = cosmic scale factor
+C(a) = proposed 3S/3T coupling strength as a function of scale factor
+
+Thought Experiment E2:
+A and B start as an entangled pair.
+A becomes horizon-inaccessible through an extreme coupling knot.
+B remains outside in ordinary 3S+1T.
+A interacts with A1 through U_AA1.
+B interacts with B1 through U_BB1.
+Do not say A and B are communicating.
+Say the original A-B correlation is redistributed into a larger A-A1-B-B1-horizon/environment state.
+
+Universal Relational Reweighting Hypothesis:
+Quantum/light duality, entanglement redistribution, gravity, black holes, and dark-sector capacity may be interpreted as different projected symptoms of relational reweighting.
+Guardrail: not proven as one mathematical mechanism yet.
+
+Special Relativity Bridge Note:
+c may be visualized as the causal bandwidth limit of 3S+1T projection.
+E = mc^2 may be visualized as the exchange relation between stabilized projection knots and relational reconfiguration capacity.
+Guardrail: V4.2 has not derived Lorentz symmetry, c, or the full relativistic energy-momentum relation.
+
+Final guardrail:
+This Rev C addendum is a thought-experiment and visualization layer. It does not prove physical 3T, solve wave-particle duality, derive gravity, solve black-hole information, derive Special Relativity, solve dark matter, or solve dark energy.
