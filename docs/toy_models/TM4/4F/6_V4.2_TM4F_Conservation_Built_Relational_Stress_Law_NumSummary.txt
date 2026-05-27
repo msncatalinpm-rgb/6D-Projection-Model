@@ -1,0 +1,76 @@
+V4.2 Toy Model 4F - Numerical Summary
+Conservation-Built Relational Stress Law
+
+Purpose:
+Build a source tensor from conservation first, then test balance against G_mu_nu.
+
+Conservation-built source:
+T^mu_nu = diag(-rho, p, p)
+rho(r) = u(r)
+p(r) solved from: dp/dr = -(rho+p) d[ln N]/dr
+N(r) = sqrt(-g_tt) = c sqrt(1 - 2u(r))
+Boundary condition: p(Rmax)=0
+
+Main model diagnostics:
+Grid = 81 x 81
+Interior points = 4761
+Lorentzian signatures = 4761/4761
+rho_center = 2.200000000000e-01
+p_center = 3.876835107109e-02
+p_over_rho_center = 1.762197775959e-01
+rho_min = 3.661315678034e-03
+rho_max = 2.200000000000e-01
+p_min = 6.454274871641e-06
+p_max = 3.876835107109e-02
+
+Balance and conservation diagnostics:
+pressureless_dust:
+  kappa = 2.846175605334e+00
+  balance_residual = 9.083717222025e-01
+  balance_correlation = 4.093767907642e-01
+  max_divergence = 7.625578537973e-02
+  mean_divergence = 2.508609051520e-02
+conserved_fluid:
+  kappa = 3.207744568546e+00
+  balance_residual = 8.805751173706e-01
+  balance_correlation = 4.691061471410e-01
+  max_divergence = 2.241221643765e-04
+  mean_divergence = 4.819258645358e-05
+flexible_fit_4E:
+  kappa = 1.000000000000e+00
+  balance_residual = 1.657744231730e-02
+  balance_correlation = 9.998613655962e-01
+  max_divergence = 1.234160744330e-01
+  mean_divergence = 7.201542799269e-02
+tautological_G:
+  kappa = 1.000000000000e+00
+  balance_residual = 0.000000000000e+00
+  balance_correlation = 1.000000000000e+00
+  max_divergence = 1.299728217938e-02
+  mean_divergence = 2.481675786671e-03
+
+Geometry-side Bianchi diagnostic:
+max_divG = 1.299728217938e-02
+mean_divG = 2.481675786671e-03
+
+Conserved-fluid component checks:
+tt, 7.946606e-01, 0.972539, 1.945753e+00, 1.142111e+00
+tx, 0.000000e+00, 1.000000, 0.000000e+00, 0.000000e+00
+ty, 0.000000e+00, 1.000000, 0.000000e+00, 0.000000e+00
+xx, 9.374570e-01, 0.881313, 2.220410e+00, 1.790769e-01
+xy, 1.000000e+00, 0.000000, 5.340168e-01, 0.000000e+00
+yy, 9.374570e-01, 0.881313, 2.220410e+00, 1.790769e-01
+
+Convergence table:
+N, h, dust_residual, conserved_fluid_residual, 4E_fit_residual, fluid_max_div, fluid_mean_div, good_signature_count, total_count
+31, 0.06666666666666667, 0.8770779774299697, 0.8422287630322475, 0.013850393116879774, 0.0015583332745450163, 0.00040109947691475804, 529, 529
+41, 0.05, 0.8978285929891523, 0.8676536757460922, 0.015463741372753019, 0.0008672537346872469, 0.0002049991336115734, 1089, 1089
+61, 0.03333333333333333, 0.9123283985658095, 0.8854550070996045, 0.01694246504545876, 0.00039690004781632517, 8.2317599663806e-05, 2809, 2809
+81, 0.025, 0.9134036571140437, 0.8867705470182887, 0.017095468053244436, 0.00022412216437648141, 4.602577854568116e-05, 5041, 5041
+101, 0.02, 0.9101107494736147, 0.8827109501223773, 0.016773960731966985, 0.00014315022580212047, 3.044226376303612e-05, 7569, 7569
+
+Conclusion:
+A conservation-built relational-fluid source can be constructed and has small covariant divergence.
+However, it does not balance G_mu_nu well.
+Conservation is necessary but not sufficient.
+The missing object is a constitutive relational stress law linking source variables to metric response before curvature is computed.

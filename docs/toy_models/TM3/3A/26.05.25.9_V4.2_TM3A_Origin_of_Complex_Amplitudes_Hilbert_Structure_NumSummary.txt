@@ -1,0 +1,35 @@
+V4.2 Toy Model 3A - Numerical Summary
+Origin of Complex Amplitudes and Hilbert-Space Structure from Reciprocal Projection
+
+Starting point:
+T_hidden = span(tau_0, tau_1, tau_2)
+1T observable projection selects tau_0.
+Transverse hidden phase plane = span(tau_1, tau_2).
+
+Real 90-degree rotation operator:
+J = [[0, -1], [1, 0]]
+J^2 = -I
+
+Real rotation:
+R(phi) = cos(phi) I + sin(phi) J
+
+Complex shorthand:
+(u,v) <-> z = u + i v
+R(phi)(u,v) <-> exp(i phi) z
+
+Numerical checks:
+Random samples: 10000
+Max J^2 + I error: 0.000000000000e+00
+Max rotation orthogonality error: 2.220446049250e-16
+Max norm preservation error: 3.552713678801e-15
+Max rotation composition error: 3.670674875167e-15
+Max real-rotation / complex-phase equivalence error: 4.440892098501e-16
+Max Hermitian inner-product invariance error: 1.986027322598e-15
+Max qubit normalization error: 4.440892098501e-16
+Max qubit phase-plane Born-form error: 3.330669073875e-16
+
+Conclusion:
+Toy Model 3A provides a real-geometric candidate origin for complex amplitude structure.
+Complex phase can be represented as rotation in the two hidden transverse temporal directions left by 3T -> 1T projection.
+The squared modulus corresponds to invariant squared length in that phase plane.
+This is not a proof that complex numbers are unavoidable and not a derivation of the Born rule.

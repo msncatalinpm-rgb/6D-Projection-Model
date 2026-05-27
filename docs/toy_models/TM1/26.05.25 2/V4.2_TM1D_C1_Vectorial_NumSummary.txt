@@ -1,0 +1,12 @@
+V4.2 Toy Model 1D-C1 - Scalar Delay + Vectorial Connectivity
+Cost rule: c_ij = c0_ij * [1 + lambda R_lambda] / [1 + mu R_mu (e_hat dot g_hat)^2]
+rho_lambda=4.0, rho_mu=2.0, grid=21x21, 8-neighbour connections
+
+C1_flat_control: lambda=0.000000, mu=0.000000, scout_cost=20.000000, L=0.000000, avg_bundle_delay=0.000000, F_center=0.000000, detour=0.000000, paths_enter_inner=3/9, description=Flat control
+C1_delay_only_l1: lambda=1.000000, mu=0.000000, scout_cost=29.710983, L=9.710983, avg_bundle_delay=4.673750, F_center=-2.000000, detour=2.000000, paths_enter_inner=0/9, description=Delay only, wide scalar field
+C1_connect_only_m3: lambda=0.000000, mu=3.000000, scout_cost=14.630575, L=-5.369425, avg_bundle_delay=-2.039584, F_center=3.000000, detour=-3.000000, paths_enter_inner=7/9, description=Connectivity only, vectorial radial shortcut
+C1_l1_m1: lambda=1.000000, mu=1.000000, scout_cost=24.235350, L=4.235350, avg_bundle_delay=3.839274, F_center=-0.500000, detour=0.500000, paths_enter_inner=3/9, description=Weak vectorial connectivity
+C1_l1_m2: lambda=1.000000, mu=2.000000, scout_cost=21.621602, L=1.621602, avg_bundle_delay=2.967640, F_center=-0.500000, detour=0.500000, paths_enter_inner=3/9, description=Connectivity moderately dominates
+C1_l1_m3: lambda=1.000000, mu=3.000000, scout_cost=20.012943, L=0.012943, avg_bundle_delay=2.181666, F_center=1.250000, detour=-1.250000, paths_enter_inner=5/9, description=Connectivity strongly competes
+C1_l2_m3: lambda=2.000000, mu=3.000000, scout_cost=25.395312, L=5.395312, avg_bundle_delay=5.161184, F_center=-1.750000, detour=1.750000, paths_enter_inner=3/9, description=Delay stronger, connectivity high
+C1_l2_m5: lambda=2.000000, mu=5.000000, scout_cost=22.567053, L=2.567053, avg_bundle_delay=4.218451, F_center=-1.750000, detour=1.750000, paths_enter_inner=3/9, description=Strong delay plus stronger connectivity

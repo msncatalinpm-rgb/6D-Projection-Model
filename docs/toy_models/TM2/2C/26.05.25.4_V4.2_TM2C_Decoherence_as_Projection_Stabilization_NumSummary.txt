@@ -1,0 +1,41 @@
+V4.2 Toy Model 2C - Numerical Summary
+Decoherence as Projection Stabilization
+
+Standard setup:
+(alpha|0> + beta|1>) |E_ready> -> alpha|0>|E_0> + beta|1>|E_1>
+
+Environment overlap:
+gamma = <E_1 | E_0>
+
+Reduced density matrix:
+rho_S = [[ |alpha|^2,        alpha beta* gamma ],
+         [ alpha* beta gamma*, |beta|^2        ]]
+
+Balanced-state decay model:
+alpha = beta = 1/sqrt(2)
+gamma(t) = exp(-t/tau), tau = 1.4
+
+Selected values:
+t, gamma, coherence, purity, entropy, P0, P1
+0.0, 1.000000, 1.000000, 1.000000, 0.000000, 0.500000, 0.500000
+0.5, 0.699673, 0.699673, 0.744771, 0.610250, 0.500000, 0.500000
+1.4, 0.367879, 0.367879, 0.567668, 0.900046, 0.500000, 0.500000
+2.8, 0.135335, 0.135335, 0.509158, 0.986747, 0.500000, 0.500000
+5.6, 0.018316, 0.018316, 0.500168, 0.999758, 0.500000, 0.500000
+8.0, 0.003299, 0.003299, 0.500005, 0.999992, 0.500000, 0.500000
+
+Monte Carlo checks:
+Random samples: 10000
+Max trace error: 4.440892098501e-16
+Max diagonal probability error: 0.000000000000e+00
+Max Hermiticity error: 0.000000000000e+00
+Max positivity violation: 0.000000000000e+00
+Max coherence-scaling error: 1.110223024625e-16
+Max global norm error: 4.440892098501e-16
+Max purity range violation: 0.000000000000e+00
+
+Conclusion:
+Toy Model 2C formalizes decoherence as projection stabilization.
+Off-diagonal interference terms are suppressed by the environment overlap gamma.
+Diagonal probabilities remain unchanged and global unitarity is preserved in the system-plus-environment state.
+This does not solve measurement collapse or single-outcome selection.

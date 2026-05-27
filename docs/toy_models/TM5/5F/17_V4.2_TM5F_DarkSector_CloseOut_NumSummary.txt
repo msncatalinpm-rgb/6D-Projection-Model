@@ -1,0 +1,80 @@
+V4.2 Toy Model 5F - Numerical Summary
+Dark Sector Track Close-Out and Observational Guardrail Map
+
+Purpose:
+Close Toy Models 5A-5E by separating derived pieces, assumed pieces, and required observational tests.
+
+Model progression:
+5A | Rotation-curve analogue | Assumed relational-tension term | Flat curve produced | Pass as analogue; term was inserted
+5B | Graph edge economics | 2D annular radial action | a_rel ~ 1/r and M_rel ~ r derived | Shape derived, amplitude still open
+5C | BTF exponent check | Mass-scaling audit | constant Gamma fails; square-root law required | Critical diagnostic success
+5D | Universal threshold A_R | Capacity action | T_edge^2 = A_R G M_b derived from capacity action | A_R/xi not physically derived
+5E | Local-global bridge | A_R as local BTF scale and global capacity floor | p_C = -rho_C; w = -1 analogue | Cosmology data not tested
+
+Derived / structurally established:
+Flat outer rotation shape | Derived in 5B | From 2D annular radial graph action and edge-flux conservation. | Conditional on effective graph dimension D_eff = 2.
+1/r relational acceleration | Derived in 5B | Outside source, r dPhi/dr = constant, so |dPhi/dr| ~ 1/r. | Requires acceleration to follow edge-response gradient.
+M_rel proportional to r | Derived in 5B | If v_rel^2 is constant, Newtonian-inferred M_rel = v^2 r/G. | Equivalent-mass interpretation, not literal mass.
+Constant coupling fails BTF | Derived in 5C | v_flat^2 = Gamma M_b -> v_flat^4 ~ M_b^2. | Important negative result.
+Gamma(M_b) ~ M_b^-1/2 required | Derived in 5C | General Gamma ~ M^q gives exponent 2(1+q); BTF requires q=-1/2. | Identifies required scaling.
+Capacity action gives square-root law | Derived in 5D | L=T^2/(2A_R)-GM ln(T/T_ref) -> T^2=A_R G M. | Depends on chosen capacity action.
+Local-global A_R formal bridge | Structured in 5E | A_R = xi c H_C can be used locally and globally. | xi not derived; physical value not fixed.
+w=-1 capacity background | Derived in 5E | rho_C constant -> p=-rho_C. | Toy cosmological-constant analogue only.
+
+Assumed / imported:
+Effective 2D annular graph at galactic scale | 5B | Explains flat shape if true. | Needs physical/geometric justification.
+Relational acceleration follows edge-response gradient | 5B | Maps graph response to circular velocity. | Needs deeper metric/dynamics derivation.
+Universal capacity action form | 5D | Produces square-root BTF law. | Must be derived from deeper 3T/graph principle.
+A_R = xi c H_C | 5D/5E | Links local galaxy scale to cosmic horizon scale. | xi and physical normalization not derived.
+Constant capacity density | 5E | Produces p=-rho, w=-1 analogue. | Needs real expansion-history testing.
+Dimensionless toy normalization | 5A-5E | Keeps structure visible. | Physical units and constants not established.
+
+Numerical checkpoints:
+5A | outer visible-only velocity slope | -0.4909 | Kepler-like decline
+5A | outer total velocity slope | -0.0312 | flat with assumed relational tension
+5A | equivalent density slope | -2.1043 | halo-like profile
+5B | Euler residual max | 8.886e-06 | radial graph equation solved
+5B | outer edge-flux CV | 3.969e-07 | outer flux effectively constant
+5B | outer relational velocity slope | 0.0000 | flat contribution derived
+5B | outer M_rel slope | 1.0000 | linear inferred mass
+5C | linear coupling BTF slope | 2.000000 | constant coupling fails BTF
+5C | threshold BTF slope | 1.000000 | square-root law passes exponent
+5C | required Gamma slope | -0.500000 | Gamma must scale as M_b^-1/2
+5D | capacity/BTF slope | 1.000000 | capacity law gives BTF exponent
+5D | dL/dT residual max | 1.421e-14 | capacity equilibrium solved
+5D | v vs A_R slope | 0.250000 | v_flat proportional to A_R^1/4
+5E | BTF slope retained | 1.000000 | local threshold retained
+5E | xi required | 0.361557 | normalization factor not derived
+5E | q_today | -0.549986 | accelerating toy background
+5E | p+rho max | 0.000e+00 | checks w=-1 analogue
+
+Observational guardrail map:
+Galaxy rotation curves | Structurally compatible via 5A-5B | Fit real curves across radii with baryons only + relational term. | Requires galaxy dataset, baryonic mass models, uncertainty handling.
+Baryonic Tully-Fisher relation | Conditionally compatible via 5C-5D | Recover slope, zero-point, and scatter without tuning per galaxy. | A_R physical value and scatter mechanism open.
+Radial acceleration relation | Open | Reproduce observed acceleration relation from baryonic distribution. | Requires acceleration-level comparison, not just velocity curves.
+Weak lensing around galaxies | Open | Predict lensing mass profile matching rotation-derived profile. | Requires relativistic lensing extension of 5B/5D.
+Galaxy clusters | Open | Explain cluster dynamics and lensing without arbitrary hidden mass. | Requires 3D/cluster-scale graph geometry.
+Bullet Cluster / merging clusters | Open critical test | Separate lensing peaks from baryonic plasma correctly. | Requires dynamical collision model and lensing map.
+CMB acoustic peaks | Open critical test | Reproduce early-universe power spectrum effects attributed to dark matter/dark energy. | Requires relativistic cosmology and perturbation theory.
+Large-scale structure growth | Open | Reproduce growth rate and matter power spectrum. | Requires cosmic perturbation dynamics.
+BAO / supernova expansion history | Open | Fit distance-redshift observables with capacity background. | Requires calibrated H(a), not toy H(a).
+Hubble tension | Not addressed | Explain or not worsen current H0 discrepancies. | Requires real late/early-universe analysis.
+Redshift evolution of BTF zero-point | Future discriminant | Check whether A_R is tied to residual floor H_C or time-varying H(a). | Potential observational falsifier.
+
+Strongest defensible conclusion:
+Within controlled toy models, the V4.2 relational framework can reproduce the structural form of flat galactic rotation curves, identify the BTF scaling requirement, express that scaling through a universal capacity action, and connect the same capacity scale to a dark-energy-like constant background pressure.
+This is structural compatibility, not observational validation.
+
+Explicit non-claims:
+- no claim that particle dark matter is false
+- no claim that Lambda-CDM is replaced
+- no claim that MOND is derived or replaced
+- no claim that real galaxy data has been fitted
+- no claim that weak lensing, clusters, Bullet Cluster, CMB, BAO, supernovae, or structure formation have been explained
+- no claim that physical A_R, xi, H0, Lambda, or any acceleration scale has been derived
+- no claim that physical 3T has been proven
+- no claim that the Dark Sector is solved
+
+Recommended next:
+Toy Model 5G - Minimal Real-Galaxy Rotation-Curve Fitting Protocol.
+Alternative: prepare a wider V4.2 binder before moving to real data.

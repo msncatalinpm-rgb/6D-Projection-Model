@@ -1,0 +1,41 @@
+V4.2 Toy Model 3E - Numerical Summary
+Gauge Phase and Electromagnetic Coupling as Local Phase-Connection Structure
+
+Local phase transformation:
+psi' = exp(i q chi(x,t)/hbar) psi
+
+Ordinary derivative failure:
+dpsi'/dx = exp(i q chi/hbar)[dpsi/dx + i(q/hbar)(dchi/dx)psi]
+
+Covariant derivatives:
+D_x = d/dx - i(q/hbar) A
+D_t = d/dt + i(q/hbar) Phi
+
+Gauge transformations:
+A' = A + dchi/dx
+Phi' = Phi - dchi/dt
+
+Covariance:
+D'_x psi' = exp(i q chi/hbar) D_x psi
+D'_t psi' = exp(i q chi/hbar) D_t psi
+
+Covariant Schrodinger structure:
+i hbar D_t psi = -(hbar^2/2m) D_x^2 psi
+
+Expanded minimal coupling:
+i hbar dpsi/dt = [(1/2m)(-i hbar d/dx - qA)^2 + q Phi] psi
+
+Numerical checks:
+Random samples: 10000
+Mean ordinary derivative mismatch: 2.063364239601e-01
+Max ordinary derivative mismatch: 3.575885882324e-01
+Max covariant spatial derivative error: 1.005732771064e-15
+Max covariant time derivative error: 9.930136612989e-16
+Max covariant second-derivative error: 3.794299872214e-15
+Max covariant Schrodinger residual error: 1.831026719409e-15
+Max probability-density gauge error: 4.440892098501e-16
+Max electric-field gauge error: 5.551115123126e-17
+
+Conclusion:
+Toy Model 3E recovers electromagnetic minimal-coupling structure as a local phase-connection requirement.
+It does not derive Maxwell equations, electric charge, QED, the Standard Model, or physical 3T existence.

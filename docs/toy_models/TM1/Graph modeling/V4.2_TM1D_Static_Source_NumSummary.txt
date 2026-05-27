@@ -1,0 +1,7 @@
+V4.2 Toy Model 1D - Static Central Source Numerical Summary
+Setup: 21x21 grid, 8-neighbour connections, R0=1, rho=2.5, C(a)=1
+
+lambda=0: scout cost=20.000000, L=0.000000, avg bundle delay=0.000000
+lambda=1: scout cost=25.063316, L=5.063316, avg bundle delay=1.763770
+lambda=5: scout cost=27.262823, L=7.262823, avg bundle delay=2.945434
+lambda=10: scout cost=28.726656, L=8.726656, avg bundle delay=3.574271

@@ -1,0 +1,43 @@
+V4.2 Toy Model 3C - Numerical Summary
+Recovering the Kinetic-Term Structure: Toward Spatial Wave Dynamics
+
+Phase field:
+phi(x,t) = kx - omega t
+
+Real hidden phase-plane state:
+v(x,t) = R(kx - omega t) v(0)
+
+Complex shorthand:
+psi(x,t) = exp(i(kx - omega t))
+
+First spatial derivative:
+dpsi/dx = i k psi
+
+Momentum operator:
+p_hat = -i hbar d/dx
+p_hat psi = hbar k psi
+
+Second spatial derivative:
+d2psi/dx2 = -k^2 psi
+
+Kinetic operator:
+T_hat = -(hbar^2/2m) d2/dx2
+T_hat psi = (hbar^2 k^2 / 2m) psi
+
+Free-particle dispersion used:
+hbar omega = hbar^2 k^2 / 2m
+
+Numerical checks:
+Random samples: 10000
+Max J^2 + I error: 0.000000000000e+00
+Max real first-derivative error: 3.922306035520e-09
+Max real second-derivative error: 1.421080039125e-04
+Max momentum-operator error: 4.030297807785e-09
+Max kinetic-operator error: 4.216829572896e-05
+Max Schrodinger residual: 4.216829429741e-05
+Max dispersion relation error: 0.000000000000e+00
+Max real norm error: 2.220446049250e-16
+
+Conclusion:
+Toy Model 3C recovers the structural form of the free-particle momentum and kinetic operators from spatial hidden phase twisting.
+It relies on the standard free-particle dispersion relation and does not derive mass, hbar, potentials, QFT, or physical 3T existence.

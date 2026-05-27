@@ -1,0 +1,80 @@
+V4.2 Toy Model 4E - Numerical Summary
+Relational Stress-Energy Tensor Candidate
+
+Purpose:
+Upgrade the source side from scalar density to rank-2 tensor candidate and test full G_mu_nu balance.
+
+Main candidates:
+1. Dust scalar: only T_tt = k u.
+2. Isotropic tensor: T_tt and T_xx=T_yy from scalar differential features.
+3. Relational tensor: density, gradients, Hessian/tension, shear.
+4. Tautological T=G/kappa: diagnostic only.
+
+Full tensor balance G_mu_nu ~= kappa T_mu_nu:
+dust:
+  fitted_kappa = 1.000000000000e+00
+  full_tensor_residual = 8.809000585862e-01
+  correlation = 4.664520046814e-01
+  max_divergence = 2.774774068632e-01
+  mean_divergence = 7.894830613392e-02
+iso:
+  fitted_kappa = 1.000000000000e+00
+  full_tensor_residual = 4.365095647496e-01
+  correlation = 8.986954625685e-01
+  max_divergence = 3.071131918722e+00
+  mean_divergence = 1.114622495131e+00
+tensor:
+  fitted_kappa = 1.000000000000e+00
+  full_tensor_residual = 1.657744231730e-02
+  correlation = 9.998613655962e-01
+  max_divergence = 1.234160744330e-01
+  mean_divergence = 7.201542799269e-02
+tautological:
+  fitted_kappa = 1.000000000000e+00
+  full_tensor_residual = 0.000000000000e+00
+  correlation = 1.000000000000e+00
+  max_divergence = 1.299728217938e-02
+  mean_divergence = 2.481675786671e-03
+
+Component-by-component tensor candidate checks:
+tt, 1.413074e-02, 0.999899, 1.945753e+00, 1.904254e+00
+tx, 0.000000e+00, 1.000000, 0.000000e+00, 0.000000e+00
+ty, 0.000000e+00, 1.000000, 0.000000e+00, 0.000000e+00
+xx, 1.595057e-02, 0.999867, 2.220410e+00, 2.181946e+00
+xy, 2.676244e-02, 0.999642, 5.340168e-01, 5.462945e-01
+yy, 1.595057e-02, 0.999867, 2.220410e+00, 2.181946e+00
+
+Conservation diagnostics:
+max_divG = 1.299728217938e-02
+mean_divG = 2.481675786671e-03
+tensor_candidate_max_divT = 1.234160744330e-01
+tensor_candidate_mean_divT = 7.201542799269e-02
+
+Physical sanity diagnostics:
+rho_eff_min = -2.622298857548e-01
+rho_eff_max = 6.589113610782e-01
+T_xx_min = -6.317315801566e-01
+T_xx_max = 2.181946177567e+00
+T_yy_min = -6.317315801566e-01
+T_yy_max = 2.181946177567e+00
+max_abs_T_xy_shear = 5.462944606423e-01
+Lorentzian_signatures = 4761/4761
+
+Relational tensor coefficients:
+coef_Ttt = 3.899463425927e+01, 4.110784692790e+00, -8.751196960186e+00, -3.495691453655e+02
+coef_Txx = 8.603829068190e+00, 5.346863986237e-01, -4.685678924762e+00, -3.532340074593e+01, 1.917198587719e-01, -8.369133126832e-01, -7.264062573961e-01, -3.848765612079e+00
+coef_Tyy = 8.603829068190e+00, 5.346863986233e-01, -4.685678924762e+00, -3.532340074593e+01, 1.917198587716e-01, -8.369133126832e-01, -7.264062573964e-01, -3.848765612079e+00
+coef_Txy = 9.345731873327e-01, 2.905574287571e+00
+
+Convergence table:
+N, h, dust_residual, isotropic_residual, tensor_residual, max_divT, good_signature_count, total_count
+31, 0.06666666666666667, 0.849759404525478, 0.4296354720382924, 0.013850393116879774, 0.15404942894905493, 529, 529
+41, 0.05, 0.8701936477822219, 0.4350162651018812, 0.015463741372753019, 0.13133857766675902, 1089, 1089
+61, 0.03333333333333333, 0.884927949508515, 0.4362264532957385, 0.01694246504545876, 0.11626999051778111, 2809, 2809
+81, 0.025, 0.8860522596089427, 0.43637842850990705, 0.017095468053244436, 0.11611168364216938, 5041, 5041
+101, 0.02, 0.8826825600594463, 0.4366014183644651, 0.016773960731966985, 0.12155798548000471, 7569, 7569
+
+Conclusion:
+Toy Model 4E shows that scalar dust is insufficient and a tensorial differential source is much better.
+However, the tensor is calibrated from a flexible feature basis; this is not a physical derivation.
+Next step: Toy Model 4F - Conservation-Built Relational Stress Law.

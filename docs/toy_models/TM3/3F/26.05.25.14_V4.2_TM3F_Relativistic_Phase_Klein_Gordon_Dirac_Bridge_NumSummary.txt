@@ -1,0 +1,33 @@
+V4.2 Toy Model 3F - Numerical Summary
+Relativistic Phase Constraint and Klein-Gordon / Dirac Bridge
+
+Relativistic invariant:
+E^2 = p^2 c^2 + m^2 c^4
+
+Klein-Gordon structure:
+[(1/c^2)d2/dt2 - grad^2 + (mc/hbar)^2] psi = 0
+
+Dirac Hamiltonian:
+H = c alpha dot p + beta m c^2
+
+Dirac equation:
+i hbar dpsi/dt = [c alpha dot (-i hbar grad) + beta m c^2] psi
+
+Numerical checks:
+Random samples: 10000
+Max alpha_i^2 - I error: 0.000000000000e+00
+Max alpha anti-commutator error: 0.000000000000e+00
+Max alpha-beta anti-commutator error: 0.000000000000e+00
+Max beta^2 - I error: 0.000000000000e+00
+Max gamma Clifford algebra error: 0.000000000000e+00
+Max Klein-Gordon plane-wave residual: 2.220446049250e-14
+Max H^2 relativistic invariant error: 1.136868377216e-13
+Max Dirac eigenvalue error: 2.309263891220e-14
+Max Dirac plane-wave spinor residual: 2.378417431615e-14
+Max positive-energy projector error: 3.330669073875e-16
+Max negative-energy projector error: 2.220446049250e-16
+
+Conclusion:
+Toy Model 3F recovers Klein-Gordon and Dirac structural bridges from the relativistic energy-momentum constraint.
+First-order relativistic time evolution forces anti-commuting matrices and multi-component spinor structure.
+It does not derive particle masses, spin values, charge, QFT, the Standard Model, or physical 3T existence.

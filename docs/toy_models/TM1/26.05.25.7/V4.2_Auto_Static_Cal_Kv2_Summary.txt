@@ -1,0 +1,62 @@
+V4.2 Autonomous Static Calibration - K_V42 v2 Summary
+Purpose: run the calibration loop internally and avoid making Catalin a ping-pong bridge.
+
+K_V42 v2 diagnostic:
+K_v2 = F_in + 0.50 F_bundle + 0.40 positive_delay_reward - penalties
+Penalties include negative average delay, negative scout delay, excess core collapse, boundary fleeing, wall-like over-delay, and weak focusing.
+This is an engineering diagnostic, not Ricci curvature and not General Relativity.
+
+Total cases evaluated: 250
+Qualified cases: 29
+
+Top 15 qualified cases:
+C3_tuned_l03_lr12_mu6: K_v2=5.072281, L=3.069889, avgD=3.305702, F_in=1.750000, F_bundle=4.000000, detour=-0.750000, core=3/9, boundary=0/9, central=3/9, status=candidate
+C3_tuned_l02_lr12_mu6: K_v2=4.787890, L=0.878652, avgD=0.719725, F_in=1.500000, F_bundle=6.000000, detour=-0.500000, core=1/9, boundary=0/9, central=1/9, status=candidate
+C3_tuned_l03_lr10_mu6: K_v2=4.645374, L=1.462622, avgD=2.655101, F_in=2.250000, F_bundle=4.000000, detour=-1.250000, core=5/9, boundary=0/9, central=3/9, status=candidate
+C3_tuned_l01.5_lr10_mu5: K_v2=4.608122, L=0.617170, avgD=0.270304, F_in=1.500000, F_bundle=6.000000, detour=-0.750000, core=3/9, boundary=0/9, central=1/9, status=candidate
+C3_tuned_l02_lr12_mu5: K_v2=4.140887, L=3.729808, avgD=2.227219, F_in=1.250000, F_bundle=4.000000, detour=-0.500000, core=3/9, boundary=0/9, central=1/9, status=candidate
+C3_tuned_l02_lr10_mu5: K_v2=3.953101, L=1.862672, avgD=1.757753, F_in=1.250000, F_bundle=4.000000, detour=-0.500000, core=3/9, boundary=0/9, central=1/9, status=candidate
+C3_tuned_l01.5_lr12_mu5: K_v2=3.548505, L=2.484307, avgD=0.746262, F_in=1.250000, F_bundle=4.000000, detour=-0.500000, core=3/9, boundary=0/9, central=1/9, status=candidate
+C3_tuned_l01_lr10_mu4: K_v2=3.351465, L=2.249617, avgD=0.253663, F_in=1.250000, F_bundle=4.000000, detour=-0.500000, core=3/9, boundary=0/9, central=0/9, status=candidate
+C3_tuned_l02_lr4_mu3: K_v2=2.188920, L=2.057637, avgD=3.388967, F_in=1.500000, F_bundle=0.000000, detour=-1.000000, core=5/9, boundary=0/9, central=3/9, status=candidate
+C3_tuned_l02_lr5_mu3: K_v2=2.169934, L=3.438255, avgD=3.862335, F_in=0.750000, F_bundle=0.000000, detour=-0.250000, core=3/9, boundary=0/9, central=1/9, status=candidate
+C3_tuned_l02_lr3_mu3: K_v2=1.950031, L=0.677019, avgD=2.791744, F_in=1.500000, F_bundle=0.000000, detour=-1.000000, core=5/9, boundary=0/9, central=3/9, status=candidate
+C3_tuned_l02_lr12_mu4: K_v2=1.827737, L=7.579013, avgD=3.944342, F_in=0.500000, F_bundle=0.000000, detour=0.000000, core=3/9, boundary=0/9, central=1/9, status=candidate
+C3_tuned_l01.5_lr2_mu2: K_v2=1.793142, L=1.457905, avgD=2.920355, F_in=0.750000, F_bundle=0.000000, detour=-0.500000, core=3/9, boundary=0/9, central=3/9, status=candidate
+C3_tuned_l02_lr8_mu4: K_v2=1.776060, L=3.123867, avgD=2.877650, F_in=0.750000, F_bundle=0.000000, detour=-0.250000, core=3/9, boundary=0/9, central=1/9, status=candidate
+C3_tuned_l01.5_lr4_mu3: K_v2=1.712955, L=0.325220, avgD=1.782387, F_in=1.000000, F_bundle=0.000000, detour=-0.250000, core=3/9, boundary=0/9, central=3/9, status=candidate
+
+Preserved previous candidate:
+1D-C3_lamr2_mu3_preserved: K_v2=-5.474881, L=-5.900850, avgD=-2.620349, F_in=3.000000, F_bundle=8.000000, core=7/9, status=core-collapse/wormhole risk
+
+Top 30 all cases by K_v2:
+C3_tuned_l03_lr8_mu6: K_v2=5.477573, L=-0.144644, avgD=1.972211, F_in=2.500000, F_bundle=6.000000, detour=-1.500000, core=5/9, boundary=0/9, status=fails Shapiro/friction sanity
+C3_tuned_l02_lr8_mu5: K_v2=5.297335, L=-0.004465, avgD=1.171165, F_in=2.500000, F_bundle=6.000000, detour=-1.500000, core=5/9, boundary=0/9, status=fails Shapiro/friction sanity
+C3_tuned_l03_lr12_mu6: K_v2=5.072281, L=3.069889, avgD=3.305702, F_in=1.750000, F_bundle=4.000000, detour=-0.750000, core=3/9, boundary=0/9, status=candidate
+C3_tuned_l02_lr12_mu6: K_v2=4.787890, L=0.878652, avgD=0.719725, F_in=1.500000, F_bundle=6.000000, detour=-0.500000, core=1/9, boundary=0/9, status=candidate
+C3_tuned_l03_lr10_mu6: K_v2=4.645374, L=1.462622, avgD=2.655101, F_in=2.250000, F_bundle=4.000000, detour=-1.250000, core=5/9, boundary=0/9, status=candidate
+C3_tuned_l01.5_lr10_mu5: K_v2=4.608122, L=0.617170, avgD=0.270304, F_in=1.500000, F_bundle=6.000000, detour=-0.750000, core=3/9, boundary=0/9, status=candidate
+C3_tuned_l02_lr10_mu6: K_v2=4.342592, L=-0.728614, avgD=0.178016, F_in=2.000000, F_bundle=6.000000, detour=-1.000000, core=1/9, boundary=0/9, status=fails Shapiro/friction sanity
+C3_tuned_l02_lr12_mu5: K_v2=4.140887, L=3.729808, avgD=2.227219, F_in=1.250000, F_bundle=4.000000, detour=-0.500000, core=3/9, boundary=0/9, status=candidate
+C3_tuned_l01_lr8_mu4: K_v2=3.967692, L=0.230655, avgD=-0.266154, F_in=1.500000, F_bundle=6.000000, detour=-0.750000, core=3/9, boundary=0/9, status=fails Shapiro/friction sanity
+C3_tuned_l02_lr10_mu5: K_v2=3.953101, L=1.862672, avgD=1.757753, F_in=1.250000, F_bundle=4.000000, detour=-0.500000, core=3/9, boundary=0/9, status=candidate
+C3_tuned_l03_lr6_mu6: K_v2=3.810813, L=-1.751911, avgD=1.198477, F_in=2.750000, F_bundle=6.000000, detour=-2.000000, core=5/9, boundary=0/9, status=fails Shapiro/friction sanity
+C3_tuned_l03_lr12_mu8: K_v2=3.602144, L=-1.315571, avgD=0.210954, F_in=2.500000, F_bundle=6.000000, detour=-1.500000, core=5/9, boundary=0/9, status=fails Shapiro/friction sanity
+C3_tuned_l01.5_lr12_mu5: K_v2=3.548505, L=2.484307, avgD=0.746262, F_in=1.250000, F_bundle=4.000000, detour=-0.500000, core=3/9, boundary=0/9, status=candidate
+C3_tuned_l01_lr10_mu4: K_v2=3.351465, L=2.249617, avgD=0.253663, F_in=1.250000, F_bundle=4.000000, detour=-0.500000, core=3/9, boundary=0/9, status=candidate
+C3_tuned_l01.5_lr8_mu5: K_v2=3.248978, L=-1.249967, avgD=-0.250528, F_in=2.000000, F_bundle=6.000000, detour=-1.250000, core=3/9, boundary=0/9, status=fails Shapiro/friction sanity
+C3_tuned_l02_lr6_mu5: K_v2=3.113271, L=-1.871601, avgD=0.378847, F_in=2.500000, F_bundle=6.000000, detour=-1.500000, core=5/9, boundary=0/9, status=fails Shapiro/friction sanity
+C3_tuned_l01_lr12_mu5: K_v2=2.988818, L=1.156692, avgD=-0.755591, F_in=1.500000, F_bundle=6.000000, detour=-0.750000, core=3/9, boundary=0/9, status=fails Shapiro/friction sanity
+C3_tuned_l01.5_lr12_mu6: K_v2=2.941326, L=-0.216966, avgD=-0.670854, F_in=1.500000, F_bundle=6.000000, detour=-0.750000, core=3/9, boundary=0/9, status=fails Shapiro/friction sanity
+C3_tuned_l03_lr4_mu6: K_v2=2.905961, L=-3.359177, avgD=0.246178, F_in=3.500000, F_bundle=8.000000, detour=-2.750000, core=7/9, boundary=0/9, status=core-collapse/wormhole risk
+C3_tuned_l03_lr5_mu6: K_v2=2.655934, L=-2.555544, avgD=0.737029, F_in=3.250000, F_bundle=6.000000, detour=-2.500000, core=7/9, boundary=0/9, status=core-collapse/wormhole risk
+C3_tuned_l02_lr4_mu3: K_v2=2.188920, L=2.057637, avgD=3.388967, F_in=1.500000, F_bundle=0.000000, detour=-1.000000, core=5/9, boundary=0/9, status=candidate
+C3_tuned_l02_lr5_mu3: K_v2=2.169934, L=3.438255, avgD=3.862335, F_in=0.750000, F_bundle=0.000000, detour=-0.250000, core=3/9, boundary=0/9, status=candidate
+C3_tuned_l02_lr5_mu5: K_v2=1.993540, L=-2.805170, avgD=-0.017312, F_in=2.500000, F_bundle=6.000000, detour=-1.500000, core=5/9, boundary=0/9, status=fails Shapiro/friction sanity
+C3_tuned_l02_lr3_mu3: K_v2=1.950031, L=0.677019, avgD=2.791744, F_in=1.500000, F_bundle=0.000000, detour=-1.000000, core=5/9, boundary=0/9, status=candidate
+C3_tuned_l02_lr12_mu4: K_v2=1.827737, L=7.579013, avgD=3.944342, F_in=0.500000, F_bundle=0.000000, detour=0.000000, core=3/9, boundary=0/9, status=candidate
+C3_tuned_l03_lr3_mu6: K_v2=1.827566, L=-4.162810, avgD=-0.338145, F_in=4.000000, F_bundle=8.000000, detour=-3.500000, core=7/9, boundary=0/9, status=core-collapse/wormhole risk
+C3_tuned_l01.5_lr2_mu2: K_v2=1.793142, L=1.457905, avgD=2.920355, F_in=0.750000, F_bundle=0.000000, detour=-0.500000, core=3/9, boundary=0/9, status=candidate
+C3_tuned_l02_lr8_mu4: K_v2=1.776060, L=3.123867, avgD=2.877650, F_in=0.750000, F_bundle=0.000000, detour=-0.250000, core=3/9, boundary=0/9, status=candidate
+C3_tuned_l03_lr2_mu6: K_v2=1.739430, L=-4.966444, avgD=-1.022063, F_in=4.750000, F_bundle=12.000000, detour=-4.250000, core=9/9, boundary=0/9, status=core-collapse/wormhole risk
+C3_tuned_l01.5_lr4_mu3: K_v2=1.712955, L=0.325220, avgD=1.782387, F_in=1.000000, F_bundle=0.000000, detour=-0.250000, core=3/9, boundary=0/9, status=candidate

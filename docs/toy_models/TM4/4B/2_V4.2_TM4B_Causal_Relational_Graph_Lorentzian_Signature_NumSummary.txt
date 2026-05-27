@@ -1,0 +1,53 @@
+V4.2 Toy Model 4B - Numerical Summary
+Causal Relational Graph and Lorentzian Signature Candidate
+
+Purpose:
+Test whether adding directed causal 1T structure to the 4A spatial metric candidate can produce a Lorentzian signature candidate.
+
+Critical guardrail:
+The Lorentzian minus sign does not come from positive shortest-path distance alone.
+It appears only after causal ordering and signed interval structure are introduced.
+
+Signed interval model:
+ds^2 = -c^2 dt^2 + n(x,y)^2(dx^2 + dy^2)
+c = 1.7
+n(x,y) = 1 + A exp[-(x^2 + y^2)/(2 rho^2)]
+A = 0.55, rho = 0.42
+
+Local extraction rule:
+s_ij^2 ~= g_tt dt^2 + 2g_tx dt dx + 2g_ty dt dy + g_xx dx^2 + 2g_xy dxdy + g_yy dy^2
+
+Main diagnostics:
+Fitted local metrics: 1369
+Successful Lorentzian signatures: 1369/1369
+Signature success ratio: 1.000000000000e+00
+Minimum eigenvalue: -2.893860164867e+00
+Maximum eigenvalue: 2.397168044523e+00
+Mean extracted g_tt: -2.890130689850e+00
+Expected g_tt = -c^2: -2.890000000000e+00
+Mean extracted g_xx: 1.385437400607e+00
+Mean extracted g_yy: 1.385437400607e+00
+Mean relative metric error: 7.096940415412e-03
+95th percentile relative metric error: 1.065896469840e-02
+Max relative metric error: 1.072970302694e-02
+Mean absolute mixed-component magnitude: 7.891533332461e-03
+Max absolute mixed-component magnitude: 2.931773420653e-02
+
+Interval classification:
+Timelike s^2 < 0: 9233
+Near-null s^2 ~= 0: 0
+Spacelike s^2 > 0: 10952
+
+Convergence table:
+N, h, dt, mean_error, p95_error, max_error, good_signature_count, total_count
+13, 0.16666666666666666, 0.15196078431372548, 0.029947940340128827, 0.03583964994570778, 0.035839649945708256, 81, 81
+17, 0.125, 0.11397058823529413, 0.020710971926435718, 0.02676275270048587, 0.02687022777801313, 169, 169
+25, 0.08333333333333333, 0.07598039215686274, 0.012684785733843034, 0.017768770732192952, 0.017930554841830995, 441, 441
+33, 0.0625, 0.056985294117647065, 0.009116646939371259, 0.013325852204987984, 0.013419840907556137, 841, 841
+41, 0.05, 0.04558823529411766, 0.007096940415412382, 0.010658964698399958, 0.01072970302693806, 1369, 1369
+49, 0.041666666666666664, 0.03799019607843137, 0.005792241923781712, 0.008873220319249643, 0.008944636140044987, 2025, 2025
+
+Conclusion:
+Toy Model 4B demonstrates structural compatibility between directed 1T causal ordering plus spatial metric data and a Lorentzian metric signature candidate.
+It does not derive c, Einstein equations, curvature dynamics, gravity, dark sector behavior, physical 3T, or graph-spacetime ontology.
+Next recommended chapter: Toy Model 4C - Curvature from Varying Lorentzian Metric Candidate.

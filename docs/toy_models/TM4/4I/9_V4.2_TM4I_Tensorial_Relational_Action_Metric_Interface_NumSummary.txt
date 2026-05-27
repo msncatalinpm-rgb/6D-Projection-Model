@@ -1,0 +1,63 @@
+V4.2 Toy Model 4I - Numerical Summary
+Tensorial Relational Action and Metric-Interface Derivation
+
+Purpose:
+Upgrade scalar Phi to tensor hbar_mu_nu and test whether trace-reversed metric interface is selected.
+
+Tensorial action:
+A[hbar] = integral [1/2 sum_mu_nu |grad hbar_mu_nu|^2 - sum_mu_nu T_mu_nu hbar_mu_nu] dA
+
+Variation:
+delta A / delta hbar_mu_nu = 0
+=> -nabla^2 hbar_mu_nu - T_mu_nu = 0
+=> nabla^2 hbar_mu_nu = -T_mu_nu
+
+Main interface diagnostics:
+Dust, trace-reversed, 5.534844e-03, 0.999985, 8.046e-14, 0.000e+00, 4761/4761
+Dust, direct h=hbar, 1.000000e+00, -0.031486, 8.046e-14, 0.000e+00, 4761/4761
+Anisotropic, trace-reversed, 3.138810e-01, 0.946899, 8.046e-14, 3.732e-03, 4761/4761
+Anisotropic, direct h=hbar, 4.614411e-01, 0.881266, 8.046e-14, 3.732e-03, 4761/4761
+
+Dust trace-reversed component checks:
+tt, 5.534844e-03, 0.999990, 1.119311e-01, 1.125261e-01
+tx, 0.000000e+00, 1.000000, 0.000000e+00, 0.000000e+00
+ty, 0.000000e+00, 1.000000, 0.000000e+00, 0.000000e+00
+xx, 4.354061e-02, 1.000000, 6.938894e-18, 0.000000e+00
+xy, 1.000000e+00, 0.000000, 5.342850e-08, 0.000000e+00
+yy, 4.356625e-02, 1.000000, 6.938894e-18, 0.000000e+00
+
+Core values:
+Grid = 81 x 81
+Interior_points = 4761
+Lorentzian_signatures = 4761/4761
+source_center = 1.000000000000e+00
+hbar_tt_center = 2.000000000000e-02
+gtt_trace_center = -2.890000000000e+00
+gtt_direct_center = -2.870000000000e+00
+Gtt_trace_center = 1.119310603334e-01
+Gtt_direct_center = 7.037456907777e-07
+R_trace_center = 7.746094140717e-02
+A_zero = 0.000000000000e+00
+A_stationary = -6.662311787485e-04
+
+Amplitude sweep:
+epsilon, trace_residual, trace_corr, direct_residual, direct_corr, good_signature_count, total_count
+0.005, 0.0028815020318000294, 0.999995885898939, 0.9999999999994741, -0.031530954876875135, 4761, 4761
+0.01, 0.0037597280418326996, 0.9999930144317936, 0.9999999999979016, -0.03151607640922105, 4761, 4761
+0.02, 0.005534843739682126, 0.9999848989329364, 0.9999999999916456, -0.0314862902454684, 4761, 4761
+0.05, 0.010885281239086022, 0.9999417250992827, 0.9999999999485166, -0.03139669650917542, 4761, 4761
+0.1, 0.019766983067071125, 0.9998080022493607, 0.9999999997989955, -0.031246579763529174, 4761, 4761
+
+Grid refinement:
+N, h, Euler_max, trace_residual, direct_residual, good_signature_count, total_count
+31, 0.06666666666666667, 8.631984016460592e-15, 0.01763935104716728, 0.9999999995387426, 529, 529
+41, 0.05, 1.61259894326804e-14, 0.01148195912841279, 0.9999999998613843, 1089, 1089
+61, 0.03333333333333333, 4.2493786267527867e-14, 0.007078366261157376, 0.9999999999738314, 2809, 2809
+81, 0.025, 8.046341370970822e-14, 0.005545653749326013, 0.9999999999917693, 5041, 5041
+101, 0.02, 1.6958656701149266e-13, 0.004834120693550413, 0.9999999999965987, 7569, 7569
+
+Conclusion:
+4I derives component-wise tensor Poisson equations from a tensorial relational action.
+The trace-reversed metric interface is strongly selected by weak-field balance, while direct h=hbar fails.
+Guardrail: trace reversal and harmonic gauge are not uniquely derived from first principles yet.
+Next recommended chapter: Toy Model 4J - Gauge-Constrained Spin-2 Relational Action.

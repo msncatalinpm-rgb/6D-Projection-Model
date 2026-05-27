@@ -1,0 +1,72 @@
+V4.2 Toy Model 4G - Numerical Summary
+Constitutive Relational Stress Law and Metric Response
+
+Purpose:
+Test a forward source-to-metric constitutive law instead of fitting source after curvature.
+
+Input source:
+S(x,y) = exp[-(x^2 + y^2)/(2 sigma^2)]
+sigma = 0.25
+
+Graph Poisson response:
+nabla^2 Phi = -S, with Phi=0 at boundary
+Q = Phi / max|Phi|
+
+Trace-reversed metric response:
+hbar_tt = epsilon Q
+h_mu_nu = hbar_mu_nu - eta_mu_nu hbar_trace/(D-2)
+g_mu_nu = eta_mu_nu + h_mu_nu
+epsilon = 0.02
+c = 1.7
+D = 3
+
+Main diagnostics:
+Grid = 81 x 81
+Interior points = 4761
+Lorentzian signatures = 4761/4761
+kappa_full = 1.125260608359e-01
+full_tensor_residual = 5.534843739682e-03
+full_tensor_correlation = 9.999848989329e-01
+kappa_tt = 1.125260608359e-01
+Gtt_residual = 5.534843620781e-03
+Gtt_correlation = 9.999898496971e-01
+max_divT = 0.000000000000e+00
+mean_divT = 0.000000000000e+00
+max_divG = 4.722339344141e-07
+mean_divG = 1.654471129737e-07
+source_center = 1.000000000000e+00
+Phi_center = 8.779152483948e-02
+Q_center = 1.000000000000e+00
+hbar_tt_center = 2.000000000000e-02
+Gtt_center = 1.119310603334e-01
+Ricci_scalar_center = 7.746094140717e-02
+
+Component checks:
+tt, 5.534844e-03, 0.999990, 1.119311e-01, 1.125261e-01
+tx, 0.000000e+00, 1.000000, 0.000000e+00, 0.000000e+00
+ty, 0.000000e+00, 1.000000, 0.000000e+00, 0.000000e+00
+xx, 4.360913e-02, 1.000000, 6.938894e-18, 0.000000e+00
+xy, 1.000000e+00, 0.000000, 5.342850e-08, 0.000000e+00
+yy, 4.363473e-02, 1.000000, 6.938894e-18, 0.000000e+00
+
+Amplitude sweep:
+epsilon, full_residual, full_corr, Gtt_residual, Gtt_corr, good_signature_count, total_count
+0.005, 0.0028815020318008937, 0.999995885898939, 0.0028815020175056703, 0.9999969106004747, 4761, 4761
+0.01, 0.003759728041832752, 0.9999930144317936, 0.003759727998029938, 0.9999950336853468, 4761, 4761
+0.02, 0.005534843739681798, 0.9999848989329364, 0.005534843620780837, 0.9999898496971362, 4761, 4761
+0.05, 0.01088528123908606, 0.9999417250992826, 0.01088528086237112, 0.9999630523966501, 4761, 4761
+0.1, 0.019766983067070837, 0.9998080022493611, 0.019766982241680896, 0.9998821744986689, 4761, 4761
+
+Grid refinement:
+N, h, full_residual, Gtt_residual, max_divT, max_divG, good_signature_count, total_count
+31, 0.06666666666666667, 0.01763935104716728, 0.017639349247138215, 0.0, 3.089573308383268e-06, 529, 529
+41, 0.05, 0.01148195912841279, 0.011481958224845929, 0.0, 1.8132944933561758e-06, 1089, 1089
+61, 0.03333333333333333, 0.007078366261157429, 0.00707836596686344, 0.0, 8.306858141025055e-07, 2809, 2809
+81, 0.025, 0.005545653749325687, 0.005545653630231454, 0.0, 4.722339344140675e-07, 5041, 5041
+101, 0.02, 0.004834120693550769, 0.004834120637680771, 0.0, 3.0371375521520267e-07, 7569, 7569
+
+Conclusion:
+4G is a forward consistency success in the weak-field regime.
+Source -> graph Poisson response -> trace-reversed metric perturbation -> curvature gives strong balance G_mu_nu ~= kappa T_mu_nu.
+Guardrail: the constitutive law is imported in a linearized GR-like form, so this is not a derivation of Einstein Field Equations or physical gravity.
+Next recommended chapter: Toy Model 4H - Deriving the Constitutive Source-to-Metric Law from Relational Principles.

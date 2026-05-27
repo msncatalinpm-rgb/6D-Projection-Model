@@ -1,0 +1,67 @@
+V4.2 Toy Model 5D - Numerical Summary
+Origin of Universal Relational Threshold Scale A_R
+
+Purpose:
+Test whether the universal A_R threshold required by 5C can be structurally linked to a finite cosmic network capacity.
+
+Cosmic capacity link:
+A_R = xi c H_eff = xi c^2/R_H
+dimensionless c = 1.0
+xi = 1.0
+A_R = 3.025000000000e-01
+R_H = 3.305785123967e+00
+H_eff = 3.025000000000e-01
+
+Capacity action:
+L(T;M_b) = T^2/(2 A_R) - G M_b ln(T/T_ref)
+
+Variation:
+dL/dT = T/A_R - G M_b/T = 0
+=> T^2 = A_R G M_b
+
+Since T = v_flat^2:
+v_flat^4 = A_R G M_b
+
+Numerical diagnostics:
+capacity_BTF_slope = 1.000000000000e+00
+constant_coupling_slope = 2.000000000000e+00
+dL_dT_max_residual = 1.421085471520e-14
+minimum_second_derivative = 6.611570247934e+00
+capacity_log_residual_vs_BTF = 1.304431774367e-16
+linear_log_residual_vs_BTF = 1.735518380224e+00
+v_flat_A_R_slope_at_M1 = 2.500000000000e-01
+
+Cosmic threshold sweep:
+H_factor, A_R, T_edge_M1, v_flat_M1, v_over_baseline
+0.25, 0.075625, 0.275000, 0.524404, 0.709558
+0.50, 0.151250, 0.388909, 0.623625, 0.843812
+1.00, 0.302500, 0.550000, 0.741620, 1.003467
+2.00, 0.605000, 0.777817, 0.881940, 1.193330
+4.00, 1.210000, 1.100000, 1.048809, 1.419116
+
+Mass sweep:
+M_b, T_edge, v_flat, v4_capacity, v4_constant_coupling
+0.001, 1.739253e-02, 1.318807e-01, 3.025000e-04, 3.025000e-07
+0.01, 5.500000e-02, 2.345208e-01, 3.025000e-03, 3.025000e-05
+0.1, 1.739253e-01, 4.170435e-01, 3.025000e-02, 3.025000e-03
+1, 5.500000e-01, 7.416198e-01, 3.025000e-01, 3.025000e-01
+10, 1.739253e+00, 1.318807e+00, 3.025000e+00, 3.025000e+01
+100, 5.500000e+00, 2.345208e+00, 3.025000e+01, 3.025000e+03
+1e+03, 1.739253e+01, 4.170435e+00, 3.025000e+02, 3.025000e+05
+
+Rotation curve examples:
+M_b, T_edge, v_flat, outer_total_slope, outer_mean_v
+0.03, 0.095263, 0.308647, -0.0051, 0.310217
+1, 0.550000, 0.741620, -0.0277, 0.762978
+30, 3.012474, 1.735648, -0.1083, 1.984382
+
+Conclusion:
+5D turns the required 5C square-root edge-stress law into a capacity-action equilibrium.
+If A_R is universal, then the capacity action gives BTF scaling exactly in the toy model.
+
+Guardrail:
+A_R and xi are structurally linked to cosmic capacity but not physically derived.
+No real galaxy data, lensing, clusters, CMB, structure formation, particle dark matter replacement, or physical 3T proof.
+
+Next recommended:
+Toy Model 5E - Cosmic Coupling C(a), Horizon Scale, and Dark Energy Bridge.

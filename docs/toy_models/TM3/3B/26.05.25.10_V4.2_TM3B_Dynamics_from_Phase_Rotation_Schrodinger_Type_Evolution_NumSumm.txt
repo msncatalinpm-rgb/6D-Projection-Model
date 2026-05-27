@@ -1,0 +1,41 @@
+V4.2 Toy Model 3B - Numerical Summary
+Dynamics from Phase Rotation: Toward Schrodinger-Type Evolution
+
+Starting point from 3A:
+J = [[0, -1], [1, 0]]
+J^2 = -I
+
+Uniform hidden phase rotation:
+v(t) = R(-omega t) v(0)
+R(-omega t) = cos(omega t) I - sin(omega t) J
+
+Differential equation:
+dv/dt = -omega J v
+
+Complex shorthand:
+v=(u,w) <-> psi = u + i w
+dpsi/dt = -i omega psi
+i dpsi/dt = omega psi
+With E=hbar omega: i hbar dpsi/dt = E psi
+
+General Hermitian-to-real generator mapping:
+H=A+iB, A^T=A, B^T=-B
+Real stacked coordinates: [x_all ; y_all]
+d/dt [x;y] = [[B,A],[-A,B]] [x;y]
+The real generator is antisymmetric and norm-preserving.
+
+Numerical checks:
+Random samples: 10000
+Max J^2 + I error: 0.000000000000e+00
+Max real-rotation / complex-phase equivalence error: 4.440892098501e-16
+Max finite-difference derivative error: 2.902159579321e-08
+Max single-plane norm preservation error: 3.552713678801e-15
+Max block generator skew-symmetry error: 0.000000000000e+00
+Max block norm-derivative error: 7.773438882919e-15
+Max general Hermitian real-generator skew error: 0.000000000000e+00
+Max general complex/real derivative equivalence error: 1.776356839400e-15
+Max general norm-derivative error: 8.593085509591e-15
+
+Conclusion:
+Toy Model 3B provides a structural bridge from hidden transverse temporal rotation to Schrodinger-type phase evolution.
+It does not derive the physical Hamiltonian H, the full Schrodinger equation, the Born rule, QFT, or physical 3T existence.

@@ -1,0 +1,52 @@
+V4.2 Toy Model 4C - Numerical Summary
+Curvature from Varying Lorentzian Metric Candidate
+
+Controlled metric:
+u(x,y) = epsilon exp[-(x^2 + y^2)/(2 rho^2)]
+g_tt = -c^2(1 - 2u)
+g_xx = 1 + 2u
+g_yy = 1 + 2u
+c = 1.7, epsilon = 0.22, rho = 0.42
+
+Computed objects:
+Christoffel symbols Gamma^lambda_mu_nu
+Ricci tensor R_mu_nu
+Ricci scalar R
+Einstein-tensor candidate G_mu_nu = R_mu_nu - 1/2 g_mu_nu R
+
+Main diagnostics:
+Grid: 81 x 81
+Interior metric points: 5329
+Successful Lorentzian signatures: 5329/5329
+Signature success ratio: 1.000000000000e+00
+Christoffel lower-index symmetry error: 0.000000000000e+00
+Metric compatibility max error: 2.220446049250e-16
+Ricci symmetry error: 9.159517990909e-04
+Ricci scalar at center: -3.763266216332e+00
+Minimum interior Ricci scalar: -3.763266216332e+00
+Maximum interior Ricci scalar: 3.805579634455e-01
+Max interior |R|: 3.763266216332e+00
+Mean edge |R| reference: 5.986847009122e-02
+|R_center| / edge mean |R|: 6.285890069677e+01
+Correlation |R| vs source u: 7.659988893851e-01
+Correlation R vs source u: -7.408867631318e-01
+Christoffel norm max: 1.072424285724e+00
+Christoffel norm at center: 0.000000000000e+00
+Max acceleration proxy magnitude: 7.324245837202e-01
+Inward acceleration proxy fraction: 1.000000000000e+00
+G_tt at center: 1.945753305420e+00
+Max interior |G_tt|: 1.945753305420e+00
+
+Convergence table:
+N, h, R_center, max_abs_R, corr_absR_source, good_signature_count, total_count
+31, 0.06666666666666667, -3.6600598025888624, 3.6600598025888624, 0.7590590433684403, 625, 625
+41, 0.05, -3.712101549372928, 3.712101549372928, 0.7614526036736279, 1225, 1225
+61, 0.03333333333333333, -3.7499074759783797, 3.7499074759783797, 0.7668667961151203, 3025, 3025
+81, 0.025, -3.763266216331694, 3.763266216331694, 0.7659988893850527, 5329, 5329
+101, 0.02, -3.769471835513176, 3.769471835513176, 0.7656540754598873, 8281, 8281
+
+Conclusion:
+Toy Model 4C demonstrates that a varying Lorentzian metric candidate supports Christoffel, Ricci, scalar-curvature, and Einstein-tensor candidate calculations.
+Curvature localizes near the controlled source-like profile.
+Guardrail: this is curvature extraction from an assumed metric profile, not Einstein Field Equations, physical stress-energy, gravity, dark sector explanation, or proof of physical 3T.
+Next recommended chapter: Toy Model 4D - Source-to-Curvature Calibration and Einstein-Tensor Consistency.
