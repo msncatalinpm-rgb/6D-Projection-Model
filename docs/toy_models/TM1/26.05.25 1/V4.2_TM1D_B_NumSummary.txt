@@ -1,0 +1,10 @@
+V4.2 Toy Model 1D-B - Numerical Summary
+Combined rule: c_ij = c0_ij * [1 + lambda Rbar] / [1 + mu Rbar]
+R0=1, rho=2.5, C(a)=1, 21x21 grid, 8-neighbour connections
+
+B0_flat_control: lambda=0, mu=0, scout_cost=20.000000, L=0.000000, avg_bundle_delay=0.000000, F_center=0.000000, paths_enter_source=3/9
+B1_connectivity_mu1: lambda=0, mu=1, scout_cost=16.182112, L=-3.817888, avg_bundle_delay=-1.522552, F_center=0.250000, paths_enter_source=3/9
+B1_connectivity_mu5: lambda=0, mu=5, scout_cost=11.767028, L=-8.232972, avg_bundle_delay=-5.271865, F_center=4.000000, paths_enter_source=9/9
+B2_equal_lambda1_mu1: lambda=1, mu=1, scout_cost=20.000000, L=0.000000, avg_bundle_delay=0.000000, F_center=0.000000, paths_enter_source=3/9
+B2_focus_lambda1_mu2: lambda=1, mu=2, scout_cost=17.179828, L=-2.820172, avg_bundle_delay=-1.207035, F_center=0.000000, paths_enter_source=3/9
+B2_delay_lambda2_mu1: lambda=2, mu=1, scout_cost=23.817888, L=3.817888, avg_bundle_delay=1.519855, F_center=0.000000, paths_enter_source=3/9

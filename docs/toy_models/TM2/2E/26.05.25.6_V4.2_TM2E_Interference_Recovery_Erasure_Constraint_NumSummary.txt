@@ -1,0 +1,33 @@
+V4.2 Toy Model 2E - Numerical Summary
+Interference Recovery and Erasure Constraint
+
+Starting state:
+|Psi_SE> = alpha|0>|E_0> + beta|1>|E_1>
+
+Raw local state when |E_0>, |E_1> are distinguishable:
+rho_S = [[ |alpha|^2, 0 ], [ 0, |beta|^2 ]]
+
+Eraser basis:
+|E_+> = (|E_0> + |E_1>) / sqrt(2)
+|E_-> = (|E_0> - |E_1>) / sqrt(2)
+
+Conditioned branches:
+|psi_+> = alpha|0> + beta|1>
+|psi_-> = alpha|0> - beta|1>
+
+Monte Carlo checks:
+Random states tested: 10000
+Max global norm error: 5.551115123126e-16
+Max raw trace error: 3.338458396197e-16
+Max conditioned trace error: 4.449531799573e-16
+Max eraser probability-sum error: 5.551115123126e-16
+Max unconditioned reconstruction error: 6.663651644374e-16
+Max plus-branch coherence restoration error: 5.551115123126e-16
+Max minus-branch coherence restoration error: 5.551115123126e-16
+Max no-signalling/unread-state error: 6.663651644374e-16
+Max conditional coherence range error: 0.000000000000e+00
+
+Conclusion:
+Toy Model 2E shows that interference recovery occurs only in conditioned eraser branches.
+The unread average remains unchanged, preserving no-signalling.
+This is not retrocausality or time travel. It is a compatibility model for quantum eraser logic.

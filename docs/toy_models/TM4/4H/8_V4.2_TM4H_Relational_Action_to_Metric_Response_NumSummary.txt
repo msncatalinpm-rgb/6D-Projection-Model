@@ -1,0 +1,80 @@
+V4.2 Toy Model 4H - Numerical Summary
+Relational Action to Metric Response
+
+Purpose:
+Derive the scalar graph response law from a native relational action, then test the 4G forward metric-response pipeline.
+
+Relational action:
+A[Phi] = integral [1/2 |grad Phi|^2 - S Phi] dA
+
+Variation:
+delta A / delta Phi = 0
+=> -nabla^2 Phi - S = 0
+=> nabla^2 Phi = -S
+
+Action diagnostics:
+Action_zero_field = 0.000000000000e+00
+Action_random_field = 2.503601218020e+01
+Action_stationary_field = -1.283719524289e-02
+Euler_residual_max = 3.401723347451e-13
+Euler_residual_rms = 3.627823964025e-14
+Directional_derivative_solution = -1.061467233814e-02
+Directional_derivative_zero = 8.625038934929e-03
+
+Metric interface ansatz retained from 4G:
+Q = Phi / max|Phi|
+hbar_tt = epsilon Q
+h_mu_nu = hbar_mu_nu - eta_mu_nu hbar_trace/(D-2)
+g_mu_nu = eta_mu_nu + h_mu_nu
+
+Main diagnostics:
+Grid = 81 x 81
+Interior points = 4761
+Lorentzian signatures = 4761/4761
+kappa_full = 1.125260608359e-01
+full_tensor_residual = 5.534843739682e-03
+full_tensor_correlation = 9.999848989329e-01
+kappa_tt = 1.125260608359e-01
+Gtt_residual = 5.534843620781e-03
+Gtt_correlation = 9.999898496971e-01
+max_divT = 0.000000000000e+00
+mean_divT = 0.000000000000e+00
+max_divG = 4.722339344141e-07
+mean_divG = 1.654471129737e-07
+source_center = 1.000000000000e+00
+Phi_center = 8.779152483948e-02
+Q_center = 1.000000000000e+00
+hbar_tt_center = 2.000000000000e-02
+gtt_center = -2.890000000000e+00
+Gtt_center = 1.119310603334e-01
+Ricci_scalar_center = 7.746094140717e-02
+
+Component checks:
+tt, 5.534844e-03, 0.999990, 1.119311e-01, 1.125261e-01
+tx, 0.000000e+00, 1.000000, 0.000000e+00, 0.000000e+00
+ty, 0.000000e+00, 1.000000, 0.000000e+00, 0.000000e+00
+xx, 4.360913e-02, 1.000000, 6.938894e-18, 0.000000e+00
+xy, 1.000000e+00, 0.000000, 5.342850e-08, 0.000000e+00
+yy, 4.363473e-02, 1.000000, 6.938894e-18, 0.000000e+00
+
+Amplitude sweep:
+epsilon, full_residual, full_corr, Gtt_residual, Gtt_corr, good_signature_count, total_count
+0.005, 0.0028815020318008937, 0.999995885898939, 0.0028815020175056703, 0.9999969106004747, 4761, 4761
+0.01, 0.003759728041832752, 0.9999930144317936, 0.003759727998029938, 0.9999950336853468, 4761, 4761
+0.02, 0.005534843739681798, 0.9999848989329364, 0.005534843620780837, 0.9999898496971362, 4761, 4761
+0.05, 0.01088528123908606, 0.9999417250992826, 0.01088528086237112, 0.9999630523966501, 4761, 4761
+0.1, 0.019766983067070837, 0.9998080022493611, 0.019766982241680896, 0.9998821744986689, 4761, 4761
+
+Grid refinement:
+N, h, Euler_max, full_residual, Gtt_residual, max_divG, good_signature_count, total_count
+31, 0.06666666666666667, 3.674838211509268e-14, 0.01763935104716728, 0.017639349247138215, 3.089573308383268e-06, 529, 529
+41, 0.05, 8.215650382226158e-14, 0.01148195912841279, 0.011481958224845929, 1.8132944933561758e-06, 1089, 1089
+61, 0.03333333333333333, 1.8696155734687636e-13, 0.007078366261157429, 0.00707836596686344, 8.306858141025055e-07, 2809, 2809
+81, 0.025, 3.4017233474514796e-13, 0.005545653749325687, 0.005545653630231454, 4.722339344140675e-07, 5041, 5041
+101, 0.02, 6.038503030936226e-13, 0.004834120693550769, 0.004834120637680771, 3.0371375521520267e-07, 7569, 7569
+
+Conclusion:
+4H derives the scalar graph Poisson response from a native relational action.
+The forward weak-field balance remains strong.
+Guardrail: the trace-reversed tensor metric interface is still an ansatz, not derived.
+Next recommended chapter: Toy Model 4I - Tensorial Relational Action and Metric-Interface Derivation.

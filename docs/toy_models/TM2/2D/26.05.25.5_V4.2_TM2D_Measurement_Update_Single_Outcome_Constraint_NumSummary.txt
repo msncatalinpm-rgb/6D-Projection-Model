@@ -1,0 +1,36 @@
+V4.2 Toy Model 2D - Numerical Summary
+Measurement Update and Single-Outcome Constraint
+
+Starting point after decoherence:
+rho_S = [[ |alpha|^2, 0 ], [ 0, |beta|^2 ]]
+
+Selective local update:
+rho -> rho_k = P_k rho P_k / Tr(P_k rho)
+
+Nonselective update:
+rho -> sum_k P_k rho P_k
+
+Global compatible record state:
+|Psi_SEO> = alpha |0>|E_0>|O_0> + beta |1>|E_1>|O_1>
+
+Local update checks:
+Random local diagonal states tested: 10000
+Max probability-sum error: 0.000000000000e+00
+Max selective trace error: 1.110223024625e-16
+Max nonselective trace error: 0.000000000000e+00
+Max positivity violation: 0.000000000000e+00
+Max diagonal preservation error: 0.000000000000e+00
+Max idempotence error: 1.110223024625e-16
+Born-frequency sanity check error at P(0)=0.37: 2.999999999997e-05
+
+No-signalling checks on Bell singlet:
+Random Alice axes tested: 10000
+Max Bob marginal change after Alice nonselective update: 1.118863022828e-16
+Max conditional-average error: 1.144391699631e-16
+Max Bob conditional trace error: 2.220446049250e-16
+Max Bob conditional-state formula error: 2.221529986854e-16
+
+Conclusion:
+Toy Model 2D formalizes local single-outcome update as observer-record conditioning.
+It preserves probability conservation, positivity, and no-signalling under nonselective remote measurements.
+It does not solve the measurement problem or derive the Born rule.

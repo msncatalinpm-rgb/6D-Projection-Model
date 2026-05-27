@@ -1,336 +1,360 @@
-# The 6D Projection Framework — Version 4.1
+# V4.2 6D Projection Framework
 
-**Relational Organization, Projection, and the Embedded Observer**
+**Current active version: V4.2**
 
-Author: **Catalin Muresan**  
-Status: **Exploratory Open-Source Conceptual Framework**  
-Release Stage: **IFC — Issued for Community Review**
+Start here: [`START_HERE.md`](START_HERE.md)
 
----
+Version history: [`VERSION_HISTORY.md`](VERSION_HISTORY.md)
 
-## The Problem
-
-Modern physics provides highly successful descriptions of quantum phenomena, gravity, and cosmological evolution.
-
-However, these descriptions appear to operate in different conceptual languages:
-
-- **Quantum Mechanics** is fundamentally relational, non-local, and probabilistic.
-- **General Relativity** is fundamentally geometric, local, and deterministic.
-- **Dark Matter and Dark Energy** indicate that much of the universe remains operationally inaccessible to direct observation.
-
-This framework begins with a simple question:
-
-> Are these separate problems, or are they different observer-accessible manifestations of a deeper organizational structure?
-
----
-
-## The Core Idea
-
-Version 4.1 explores the possibility that:
-
-- connectivity,
-- projection,
-- stabilization,
-- and observer accessibility
-
-may provide a common organizational language capable of discussing phenomena currently treated separately.
-
-The framework does **not** attempt to replace Quantum Mechanics or General Relativity.
-
-Instead, it investigates whether both may represent observer-accessible projections of a deeper organizational structure.
-
-The central question is not whether current physics is wrong.
-
-The central question is whether embedded observers mistake accessibility constraints for fundamental reality.
-
----
-
-## Central Organizing Principle
-
-The framework is guided by the principle:
+## Version Logic
 
 ```text
-Relationship
-      ↓
-Organization
-      ↓
-Observable Order
+V4   = conceptual frame
+V4.1 = expanded framework and thought-experiment architecture
+V4.2 = mathematical toy-model development and current active baseline
 ```
 
-This means that observable order may emerge from underlying relational structure rather than existing as an independent starting point.
-
-In practical terms, position, sequence, and geometry may be outputs of deeper organization rather than primitive facts.
-
-> Position emerges from relationship.
-
----
-
-## Why This Approach Emerged
-
-The framework did not originate from particle physics.
-
-It emerged from years of working with complex engineering, project-management, scheduling, and integration systems.
-
-In such systems, visible order does not necessarily come first.
-
-A calendar, for example, can appear as a clean sequence of dates and tasks. But in a dependency-based scheduling engine, the calendar is only the final projection of a deeper network of relationships.
+In plain terms:
 
 ```text
-Dependency Structure
-        ↓
-Scheduling Engine
-        ↓
-Calendar View
+V4 introduced the conceptual frame of the 6D Projection Framework.
+
+V4.1 expanded and clarified that frame, developing the 3S+1T / 3T+1S interpretation and the main thought-experiment architecture.
+
+V4.2 builds on V4 and V4.1 by adding the mathematical toy-model track: Toy Models 1-5, the Master Binder, the Rev C Thought Experiment Notes, strict guardrails, and the roadmap toward real-data testing.
 ```
 
-The observable calendar does not determine task order.
-
-The hidden dependency structure determines the calendar.
-
-This practical observation later became a conceptual doorway into a broader question:
-
-> Could space, time, gravity, and quantum phenomena also emerge from deeper organizational relationships not directly visible to embedded observers?
-
----
-
-## Related Theoretical Frameworks and Conceptual Neighbors
-
-Version 4.1 was developed independently from engineering, project-management, scheduling, and integration intuitions.
-
-However, several parts of the framework converge conceptually with existing research directions in theoretical physics and quantum foundations.
-
-This convergence should not be interpreted as a claim of priority.
-
-It should be interpreted as a sign that the framework is entering already active conceptual territory.
-
-Relevant conceptual neighbors include:
-
-- **Two-Time Physics** — especially the idea that ordinary one-time physics may appear as a lower-dimensional “shadow” or projection of a higher-dimensional structure.
-- **Relational Quantum Mechanics** — especially the idea that physical descriptions are relational rather than absolutely observer-independent.
-- **Quantum Graphity and emergent-geometry programs** — especially the idea that spacetime geometry may emerge from deeper relational or graph-like structures.
-- **Decoherence and einselection** — especially the emergence of stable classical records from quantum systems.
-- **Thermodynamic arrow-of-time work** — especially the relationship between entropy, temporal asymmetry, and observable time ordering.
-- **Information-theoretic and embedded-observer approaches** — especially the idea that what observers can access may shape what they treat as physical reality.
-
-The proposed novelty of Version 4.1 is not that every individual ingredient is new.
-
-The proposed novelty is the **integration architecture**:
+Therefore:
 
 ```text
-Relationship
-      ↓
-Organization
-      ↓
-Observable Order
+V4 and V4.1 are historical foundation layers.
+V4.2 is the current active technical baseline.
 ```
 
-applied simultaneously to:
-
-- projection,
-- embedded-observer accessibility,
-- temporal stabilization,
-- and connectivity-driven geometry.
-
-Version 4.1 therefore does not present itself as isolated from existing physics literature.
-
-It presents itself as an independently developed synthesis that may benefit from comparison with established and emerging research programs.
-
----
-
-## The 6D Architecture
-
-To explore this question, the framework proposes a speculative parent architecture organized around:
+New readers should start with:
 
 ```text
-3 Spatial Degrees of Freedom
-+
-3 Temporal Degrees of Freedom
-=
-3S + 3T
+README.md
+START_HERE.md
+docs/papers/V4.2_Master_Binder.pdf
 ```
 
-Due to the observational limits of embedded observers, this parent structure is explored as two reciprocally projected sectors.
 
-### Observable Sector
+**Status:** speculative research framework; toy-model structural compatibility only.
+
+The V4.2 6D Projection Framework explores whether selected structures in quantum mechanics, weak-field gravity, and dark-sector phenomenology can be modeled as projected consequences of a deeper relational architecture.
+
+The working architecture is:
 
 ```text
-3S + 1T
+Observable sector:          3S + 1T
+Hidden relational sector:   3T + 1S
 ```
 
-This corresponds to our familiar physical reality, where space appears volumetric and time appears as a single stabilized sequence.
-
-### Reciprocal Sector
+The core organizing idea is:
 
 ```text
-3T + 1S
+Relationship -> Organization -> Observable Order
 ```
 
-This corresponds conceptually to a hidden relational-temporal sector where temporal organization is richer and spatial accessibility is collapsed into relational adjacency.
-
-The framework does **not** claim that the reciprocal sector is directly observable.
-
-It is proposed as an exploratory architecture for investigating whether quantum, gravitational, and dark-sector phenomena may share a deeper organizational origin.
+This repository is intended as a public research foundation. It contains the consolidated toy-model binder, thought-experiment notes, guardrails, and the roadmap for future reproducible testing.
 
 ---
 
-## The Embedded Observer Problem
+## Current Public Release Scope
 
-Version 4.1 places the embedded observer at the center of the framework.
+This first GitHub release should publish the **framework and documentation only**.
 
-An embedded observer does not stand outside reality with complete access to all degrees of freedom.
+It should **not** yet claim real-data validation.
 
-Instead, the observer exists inside the system and can only measure what their physical and informational structure allows them to access.
+The immediate next technical step is:
 
-This creates the possibility that some things we treat as fundamental may actually be consequences of limited accessibility.
+```text
+Toy Model 5G - Minimal Real-Galaxy Rotation-Curve Fitting Protocol
+```
 
-The framework therefore asks:
-
-> What limitations does an embedded observer mistake for reality?
-
----
-
-## The Temporal Stabilization Hypothesis
-
-A major development in Version 4.1 is the **Temporal Stabilization Hypothesis**.
-
-The framework explores the possibility that observable temporal order emerges through stabilization processes acting on a higher-dimensional temporal structure.
-
-Under this interpretation, several phenomena traditionally treated separately may be related manifestations of a common underlying stabilization process:
-
-- memory and retained records,
-- decoherence,
-- observer consistency,
-- causal asymmetry,
-- entropy,
-- and emergence of classicality.
-
-In this exploratory view:
-
-- **Past** corresponds to stabilized retained records and is associated heuristically with **decoherence**.
-- **Present** corresponds to the actively stabilized projection layer where consistent records coexist and is associated heuristically with **record consistency**.
-- **Future** corresponds to unresolved possibility structure and causal openness and is associated heuristically with **entropy**.
-
-These mappings are not presented as derived physical laws.
-
-They are included as exploratory mechanisms and mathematical research targets.
+5G should be developed as the first post-release reproducible data protocol.
 
 ---
 
-## Gravity and Connectivity
+---
 
-Version 4.1 also explores whether gravity may be reinterpreted organizationally.
+## Version history and legacy material
 
-Instead of treating gravity only as curvature of a fundamental spacetime fabric, the framework investigates the possibility that:
+Older V4 / V4.1 material may still exist in the repository history or legacy folders.
 
-> Connectivity may organize geometry, from which gravity emerges.
+The current active version is **V4.2**.
 
-This is not presented as an established result.
+See:
 
-It is a research hypothesis requiring mathematical development, comparison with General Relativity, and testable consequences.
+```text
+VERSION_HISTORY.md
+docs/10_LEGACY_REPO_UPGRADE_NOTE.md
+```
+
+## Primary Documents
+
+The repository includes two baseline documents:
+
+1. **V4.2 Master Binder - Toy Models 1-5**  
+   Consolidates the mathematical toy-model tracks: graph geometry, quantum states, quantum dynamics, weak-field gravity, and dark-sector analogues.
+
+2. **V4.2 Thought Experiment Notes Rev C**  
+   Consolidates the visualization track: weak 3S/3T coupling, projected time, black holes, gravitational waves, entanglement, the Breathing Universe, JWST stress-test framing, Entanglement E2, relational reweighting, and the Special Relativity bridge note.
+
+See `docs/papers/`.
 
 ---
 
-## What This Framework Does Not Claim
+## Toy Model Tracks
 
-Version 4.1 is intentionally guarded against overclaiming.
+### Toy Model 1 - Graph Geometry
 
-It does **not** claim:
+Tests whether relational density and edge-cost rules on a graph can produce analogues of:
 
-- that Quantum Mechanics is wrong,
-- that General Relativity is wrong,
-- that the reciprocal 6D architecture has been experimentally verified,
-- that Dark Matter or Dark Energy have been solved,
-- that hidden sectors are directly observable,
-- that consciousness causes quantum collapse,
-- that macroscopic time travel is possible,
-- that faster-than-light signalling is possible,
-- that mathematical formalization is complete,
-- or that the framework is a finished theory.
+```text
+path delay
+path focusing
+orbit-like capture
+```
 
-The framework is an exploratory open research program.
+**Status:** graph-based operational analogue only.  
+**Guardrail:** not General Relativity.
 
 ---
 
-## Repository Documents
+### Toy Models 2-3 - Quantum States and Quantum Dynamics
 
-The Version 4.1 repository is organized as a small, disciplined publication package.
+Tests whether hidden temporal-relational projection can reproduce structural elements of quantum theory:
 
-Recommended reading order:
+```text
+probability amplitudes
+Born-rule compatibility
+decoherence
+measurement update
+quantum erasure
+complex phase
+Schrodinger-type evolution
+kinetic operator structure
+gauge-connection structure
+relativistic spinor bridge
+```
 
-1. **[Document 3 — Guardrails](documents/03_Guardrails.md)**  
-   Defines what Version 4.1 does not claim and establishes the epistemic perimeter.
-
-2. **[Document 4 — Development History](documents/04_Development_History.md)**  
-   Records how the framework evolved from the original intuition through the Embedded Observer shift and Temporal Stabilization Hypothesis.
-
-3. **[Document 2 — Core Paper](documents/02_Core_Paper.md)**  
-   Presents the main conceptual architecture, including projection, stabilization, relational organization, and gravity as an organizational hypothesis.
-
-4. **[Document 5 — Mathematical Roadmap](documents/05_Mathematical_Roadmap.md)**  
-   Lists the mathematical open problems required for the framework to survive, mature, or fail.
-
-This README is the front door.
-
-The detailed arguments live in the documents above.
+**Status:** structural compatibility in toy models.  
+**Guardrail:** not QFT and not the Standard Model.
 
 ---
 
-## PDF Files
+### Toy Model 4 - Gravity and Spacetime
 
-### Master Review Package
+Tests whether relational distance, directed 1T causality, and conserved tensor response can reproduce weak-field spin-2 structure.
 
-- `paper/6D_Projection_Framework_V4.1_IFC_Review_Package.pdf`
-
-### Individual PDF Documents
-
-- `documents/pdf/Document1_README_V4.1_IFC_RevC_FULL.pdf`
-- `documents/pdf/Document2_Core_Paper_V4.1_IFC_RevC_FULL.pdf`
-- `documents/pdf/Document3_Guardrails_V4.1_IFC_RevB_FULL.pdf`
-- `documents/pdf/Document4_Development_History_V4.1_IFC_RevC_FULL_CORRECTED.pdf`
-- `documents/pdf/Document5_Mathematical_Roadmap_V4.1_IFC_RevC_FULL.pdf`
+**Status:** structural compatibility with the linear weak-field spin-2 layer.  
+**Guardrail:** not full nonlinear General Relativity and not the Einstein-Hilbert action.
 
 ---
 
-## Current Status
+### Toy Model 5 - Dark Sector Analogues
 
-Version 4.1 should be understood as:
+Tests whether relational graph tension can mimic selected dark-sector signatures.
 
-- an architectural hypothesis,
-- an embedded-observer interpretation,
-- a relational-organization framework,
-- a candidate mechanism for temporal stabilization,
-- a hypothesis that connectivity may organize geometry,
-- and a mathematical roadmap for future work.
+Toy Model 5B derives a flat-rotation-curve shape from effective 2D annular graph economics.
 
-It remains mathematically incomplete and experimentally unresolved.
+Toy Models 5C-5E show that a universal capacity scale can be written as both:
 
-Its value depends entirely on whether its ideas can be made mathematically coherent, empirically compatible, and scientifically useful.
+```text
+local galaxy threshold:
+v_flat^4 = A_R G M_b
+```
+
+and:
+
+```text
+global capacity background:
+A_R = xi c H_C
+rho_C = constant
+p_C = -rho_C
+```
+
+**Status:** structural compatibility with selected signatures.  
+**Guardrail:** no real galaxy, lensing, CMB, cluster, BAO, supernova, or structure-formation validation yet.
 
 ---
 
-## Open Invitation
+## Thought Experiment Track
 
-This repository is offered for:
+The Rev C thought-experiment chain includes:
 
-- critique,
-- correction,
-- refinement,
-- mathematical development,
-- comparison with established physics,
-- and possible falsification.
+```text
+A  Weak coupling of smooth 3S and 3T sectors
+B  Reversed 3T orientation and projected 1T arrow
+C  Black holes as extreme coupling knots
+D  Gravitational waves as propagating projection stress
+E  Entanglement across a coupling knot
+E2 Entanglement redistribution across a coupling knot
+F  Integrated black-hole merger picture
+G  Breathing Universe and JWST early-structure stress test
+H  Special Relativity bridge note: c and E = mc^2
+```
 
-The aim is not belief.
+The thought experiments are visualization tools. They are not physical proof.
 
-The aim is interrogation.
+---
 
-> The framework is offered not as a final answer, but as an invitation to examine whether the shadow on the wall may be telling us something about the structure casting it.
+## Breathing Universe Note
+
+The Rev C clarification describes the present universe as:
+
+```text
+geometrical inhale:
+3S expands; a(t) increases
+
+thermodynamic exhale:
+free energy is spent; entropy increases
+```
+
+The proposed coupling parameter is:
+
+```text
+C(a) = 3S/3T coupling strength as a function of cosmic scale factor
+```
+
+JWST early-structure observations are treated only as a future stress-test arena, not as proof of V4.2.
+
+---
+
+---
+
+## Toy Model Archive
+
+The detailed Toy Model development files are included under:
+
+```text
+docs/toy_models/TM1/ ... TM5/
+```
+
+This archive contains the report PDFs, Word close-out documents where available, and numerical summary TXT files for Toy Models 1-5.
+
+Nested `*_Package.zip` files from the working archive were intentionally excluded from the GitHub-ready package to avoid duplication and repository clutter.
+
+See:
+
+```text
+docs/07_TOY_MODEL_ARCHIVE_INDEX.md
+docs/08_DATA_INVENTORY.md
+```
+
+Important distinction:
+
+```text
+Included now:
+- reports
+- close-out papers
+- numerical summaries / output data
+
+Not yet included as clean reproducible code:
+- standalone simulation scripts
+- notebooks
+- raw external observational datasets
+```
+
+Toy Model 5G should create the first clean public data/code protocol.
+
+### Final publication package note
+
+The Toy Models are included as browsable chapter folders:
+
+```text
+docs/toy_models/TM1/
+docs/toy_models/TM2/
+docs/toy_models/TM3/
+docs/toy_models/TM4/
+docs/toy_models/TM5/
+```
+
+Toy Model 1 now includes its developmental stages, not only the close-out document.
+
+This archive is an evidence trail and numerical-output record. It is not yet a cleaned reproducible codebase.
+
+## Strict Non-Claims
+
+This repository does **not** claim that V4.2 has:
+
+```text
+proven physical 3T
+derived full quantum mechanics
+derived QFT
+derived the Standard Model
+derived nonlinear General Relativity
+derived the Einstein-Hilbert action
+derived physical constants
+solved dark matter
+solved dark energy
+replaced Lambda-CDM
+disproven particle dark matter
+fitted real observational datasets
+achieved physical validation
+```
+
+The current status is:
+
+```text
+coherent toy-model structural compatibility
+```
+
+not:
+
+```text
+validated physical theory
+```
+
+---
+
+## Next Work: 5G
+
+The next responsible step is not a claim. It is a protocol.
+
+```text
+Toy Model 5G - Minimal Real-Galaxy Rotation-Curve Fitting Protocol
+```
+
+Before fitting any data, 5G must define:
+
+```text
+which public dataset will be used
+which parameters are allowed
+which parameters are fixed globally
+what counts as success
+what counts as failure
+how results will be reproduced
+how failures will be reported
+```
+
+The goal is to invite falsification, not to force a fit.
+
+---
+
+## Repository Philosophy
+
+```text
+Here is the framework.
+Here are the toy models.
+Here are the assumptions.
+Here are the guardrails.
+Here is the roadmap.
+Break it if you can.
+```
+
+---
+
+## Author
+
+Catalin Muresan
 
 ---
 
 ## License
 
-Recommended license:
+No final license is selected in this package.
 
-```text
-MIT License
-```
+See `LICENSE_DECISION.md` before publishing publicly.

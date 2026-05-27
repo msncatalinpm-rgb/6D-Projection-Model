@@ -1,0 +1,109 @@
+V4.2 Gravity Track Close-Out Rebind Summary
+File: 26.05.26.11_V4_2_Gravity_Track_4A_to_4J_Close_Out_Paper_Rev_A.pdf
+Date: 2026.05.26
+Scope: Toy Models 4A-4J
+
+CLOSED BASELINE
+
+4A - Relational distance matrix -> local metric candidate.
+Result: metric-like continuous geometry emerges, but positive-definite only.
+
+4B - Directed 1T causality -> Lorentzian signature.
+Result: directed causal ordering supplies opposite-sign temporal structure.
+
+4C - Varying Lorentzian metric -> curvature.
+Result: Christoffel, Ricci, Ricci scalar, and Einstein-tensor candidates computed.
+
+4D - Scalar source calibration.
+Result: raw scalar density fails strict source-curvature proportionality.
+Raw u residual: 7.212e-01.
+Composite differential source residual: 1.413e-02.
+
+4E - Tensorial stress-energy candidate.
+Result: tensorial/differential source fits far better but remains calibrated.
+Dust scalar residual: 8.809e-01.
+Relational tensor residual: 1.658e-02.
+
+4F - Conservation-built relational stress law.
+Result: conservation can be enforced, but conservation alone does not balance G_mu_nu.
+Conserved-fluid residual: 8.806e-01.
+Conserved-fluid max divT: 2.241e-04.
+
+4G - Forward source-to-metric response.
+Result: source -> metric response -> curvature works in weak field.
+Full tensor residual: 5.535e-03.
+Max divG: 4.722e-07.
+Guardrail: response law imported in linearized trace-reversed Poisson-like form.
+
+4H - Relational action to scalar response.
+Action:
+A[Phi] = integral [1/2 |grad Phi|^2 - S Phi] dA
+Variation:
+delta A / delta Phi = 0 -> nabla^2 Phi = -S.
+Euler residual max: 3.402e-13.
+Result: scalar graph Poisson response derived from action.
+Guardrail: tensor metric interface still ansatz.
+
+4I - Tensorial relational action.
+Action:
+A[hbar] = integral [1/2 sum |grad hbar_mu_nu|^2 - sum T_mu_nu hbar_mu_nu] dA
+Variation:
+nabla^2 hbar_mu_nu = -T_mu_nu.
+Result:
+trace-reversed interface works; direct h=hbar fails.
+Dust trace residual: 5.535e-03.
+Dust direct residual: 1.000e+00.
+
+4J - Gauge-constrained spin-2 relational action.
+Action:
+A[hbar] =
+integral [
+  1/2 sum |grad hbar_mu_nu|^2
+  - sum T_mu_nu hbar_mu_nu
+  + (lambda_g/2) sum (partial^mu hbar_mu_nu)^2
+] dA
+
+Gauge:
+partial^mu hbar_mu_nu = 0
+
+Source conservation:
+partial_mu T^mu_nu = 0
+
+Response:
+nabla^2 hbar_mu_nu = -T_mu_nu
+
+Trace reversal:
+h_mu_nu = hbar_mu_nu - eta_mu_nu hbar_trace/(D-2)
+g_mu_nu = eta_mu_nu + h_mu_nu
+
+4J numerical result:
+Dust source divergence max: 0.000e+00
+Dust gauge residual max: 0.000e+00
+Dust trace residual: 5.535e-03
+Dust trace correlation: 0.999985
+Direct h=hbar residual: 1.000e+00
+Arbitrary anisotropic source residual: 3.139e-01
+Airy conserved stress residual: 6.876e-02
+
+STRONGEST DEFENSIBLE CONCLUSION
+
+The V4.2 relational framework achieved structural compatibility with the linear weak-field spin-2 layer of gravity:
+relational source -> gauge-compatible tensor response -> trace-reversed metric perturbation -> curvature -> source balance.
+
+STRICT GUARDRAILS
+
+This does not derive:
+- nonlinear Einstein-Hilbert action
+- full Einstein Field Equations
+- Newton's gravitational constant
+- physical stress-energy of real matter
+- quantum gravity
+- dark matter
+- dark energy
+- physical 3T
+- proof of the 6D Projection Framework
+
+RECOMMENDED NEXT STEP
+
+Option A: move to Toy Model 4K - Nonlinear Self-Coupling and Einstein-Hilbert Bridge.
+Option B: pause the gravity track and use 4A-4J as the sealed weak-field baseline.

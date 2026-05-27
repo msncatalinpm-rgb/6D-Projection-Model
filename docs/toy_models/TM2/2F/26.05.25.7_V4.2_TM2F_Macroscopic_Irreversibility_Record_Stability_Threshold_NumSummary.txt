@@ -1,0 +1,41 @@
+V4.2 Toy Model 2F - Numerical Summary
+Macroscopic Irreversibility and Record Stability Threshold
+
+Multi-record environment:
+|Psi_SE> = alpha|0>|E_0^(1)>...|E_0^(N)> + beta|1>|E_1^(1)>...|E_1^(N)>
+
+Per-record overlap:
+q_k = <E_1^(k) | E_0^(k)>
+
+Total overlap:
+Gamma_N = product(q_k)
+If identical: Gamma_N = q^N
+
+Balanced-state visible coherence = |Gamma_N|.
+
+Record-stability thresholds:
+q, N_for_1e-3, N_for_1e-6, N_for_1e-12, N_for_1e-30
+0.9, 66, 132, 263, 656
+0.99, 688, 1375, 2750, 6874
+0.999, 6905, 13809, 27618, 69044
+0.9999, 69075, 138149, 276297, 690741
+
+Monte Carlo random-overlap check q_k in [0.95, 0.999]:
+N, mean, median, p5, p95
+1, 9.742138e-01, 9.741339e-01, 9.524746e-01, 9.964241e-01
+2, 9.498719e-01, 9.496664e-01, 9.173972e-01, 9.826620e-01
+5, 8.788240e-01, 8.785963e-01, 8.325169e-01, 9.258997e-01
+10, 7.725602e-01, 7.723209e-01, 7.156564e-01, 8.329437e-01
+20, 5.966666e-01, 5.950485e-01, 5.348763e-01, 6.636812e-01
+50, 2.751681e-01, 2.738312e-01, 2.301935e-01, 3.240615e-01
+100, 7.536883e-02, 7.466490e-02, 5.857233e-02, 9.445141e-02
+
+Max product log/direct error: 4.440892098501e-16
+
+Complexity proxy:
+number of record branches = 2^N
+log10 branches = N log10(2)
+
+Conclusion:
+Toy Model 2F formalizes macroscopic irreversibility as exponential suppression of visible interference.
+Global unitarity is not destroyed; recovery becomes practically inaccessible due to record dispersion and exponential control complexity.

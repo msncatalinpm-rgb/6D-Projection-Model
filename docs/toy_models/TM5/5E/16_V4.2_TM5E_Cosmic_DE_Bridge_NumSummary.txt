@@ -1,0 +1,76 @@
+V4.2 Toy Model 5E - Numerical Summary
+Cosmic Coupling C(a), Horizon Scale, and Dark Energy Bridge
+
+Purpose:
+Test whether the same universal capacity scale A_R can generate local dark-matter-like and global dark-energy-like signatures.
+
+Toy expansion:
+H_eff^2(a) = H0^2 [Omega_m0 a^-3 + Omega_C0]
+
+Capacity scale:
+H_C = H0 sqrt(Omega_C0)
+A_R = xi c H_C = xi c^2/R_H
+
+Capacity fraction:
+C_cap(a) = Omega_C0 / [Omega_m0 a^-3 + Omega_C0]
+
+Global capacity pressure:
+rho_C = constant
+p_C = -rho_C
+w_C = -1
+
+Local galaxy link:
+v_flat^4 = A_R G M_b
+
+Parameters:
+G = 1.0
+c = 1.0
+A_R = 3.025000000000e-01
+Omega_m0 = 3.000000000000e-01
+Omega_C0 = 7.000000000000e-01
+H0 = 1.000000000000e+00
+H_C = 8.366600265341e-01
+xi = 3.615566543237e-01
+R_H_floor = 1.195228609334e+00
+
+Diagnostics:
+BTF_slope = 1.000000000000e+00
+A_floor_error = 0.000000000000e+00
+H_cap_from_A = 8.366600265341e-01
+rho_C_from_A = 7.000000000000e-01
+lambda_proxy = 2.100000000000e+00
+pressure_density_sum = 0.000000000000e+00
+wC_error = 0.000000000000e+00
+a_acc = 5.984084805886e-01
+z_acc = 6.710993116549e-01
+q_today = -5.499863615090e-01
+OmegaC_today = 6.999909076727e-01
+Omegam_today = 3.000090923273e-01
+H_today = 1.000010454984e+00
+A_total_today = 3.615604343927e-01
+A_total_to_floor_today = 1.195241105430e+00
+early_H_slope = -1.499462986350e+00
+late_H_slope = -1.210207147136e-02
+early_A_total_slope = -1.499462986350e+00
+late_A_total_slope = -1.210207147136e-02
+
+Epoch drift table:
+a, z, H(a), A_total(a), C_cap(a), v_drift_if_total_A_used
+0.25, 3.000, 4.460942, 1.612883, 0.035176, 1.519565
+0.50, 1.000, 1.760682, 0.636586, 0.225806, 1.204434
+1.00, 0.000, 1.000000, 0.361557, 0.700000, 1.045593
+2.00, -0.500, 0.858778, 0.310497, 0.949153, 1.006545
+5.00, -0.800, 0.838093, 0.303018, 0.996583, 1.000428
+
+Unified role:
+Local / galaxy | A_R | T_edge^2 = A_R G M_b | v_flat^4 = A_R G M_b | dark-matter-like rotation support
+Global / cosmos | A_R = xi c H_C | rho_C proportional to H_C^2/G | p_C = -rho_C | dark-energy-like background pressure
+
+Conclusion:
+5E shows structural compatibility for one shared capacity scale A_R producing local BTF-like scaling and global dark-energy-like pressure.
+
+Guardrail:
+xi and physical A_R are not derived. No real cosmology data, CMB, BAO, supernovae, structure formation, lensing, clusters, Bullet Cluster, particle-dark-matter replacement, or physical 3T proof.
+
+Next recommended:
+Toy Model 5F - Dark Sector Track Close-Out and Observational Guardrail Map.

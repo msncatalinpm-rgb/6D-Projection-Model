@@ -1,0 +1,75 @@
+V4.2 Toy Model 4D - Numerical Summary
+Source-to-Curvature Calibration and Einstein-Tensor Consistency
+
+Purpose:
+Test whether the Einstein-tensor candidate G_tt from 4C can be calibrated against candidate relational sources.
+
+Controlled metric:
+u(x,y) = epsilon exp[-(x^2 + y^2)/(2 rho^2)]
+g_tt = -c^2(1 - 2u)
+g_xx = 1 + 2u
+g_yy = 1 + 2u
+c = 1.7, epsilon = 0.22, rho = 0.42
+
+Calibration rule tested:
+G_tt ~= kappa S
+
+Raw-source calibration S = u:
+kappa_raw_no_intercept = 6.628786580784e+00
+residual_raw_no_intercept = 7.212144248541e-01
+corr_Gtt_u = 9.838750033873e-01
+kappa_raw_with_intercept = 1.549894116515e+01
+intercept_raw = -1.050933104576e+00
+residual_raw_with_intercept = 1.772897306904e-01
+
+Differential-source calibration S = -laplacian(u):
+kappa_poisson_no_intercept = 1.149549208911e+00
+residual_poisson_no_intercept = 3.415403496452e-01
+corr_Gtt_poisson = 9.437533886106e-01
+kappa_poisson_with_intercept = 1.178570658741e+00
+intercept_poisson = -8.957044104589e-02
+residual_poisson_with_intercept = 3.277520184343e-01
+
+Gradient-source calibration S = |grad u|^2:
+kappa_grad_no_intercept = 7.771408075357e+00
+residual_grad_no_intercept = 8.624429822376e-01
+corr_Gtt_grad = 7.160417031731e-01
+
+Composite source S = a u + b(-lap u) + c|grad u|^2 + d u^2:
+a_u = 3.899463425927e+01
+b_minus_lap_u = 4.110784692790e+00
+c_grad2 = -8.751196960188e+00
+d_u2 = -3.495691453655e+02
+residual_composite = 1.413074046890e-02
+corr_composite = 9.998988589677e-01
+
+Bianchi / conservation diagnostic:
+max_abs_covariant_divergence_interior = 1.299728217938e-02
+mean_abs_covariant_divergence_interior = 2.481675786671e-03
+relative_max_divergence_diagnostic = 1.304886895866e-04
+max_component_nu_t = 0.000000000000e+00
+max_component_nu_x = 1.089283693830e-02
+max_component_nu_y = 1.089283693830e-02
+
+Core diagnostics:
+grid = 81 x 81
+interior_points = 4761
+Lorentzian_signatures = 4761/4761
+Gtt_center = 1.945753305420e+00
+u_center = 2.200000000000e-01
+minus_lap_u_center = 2.492122963807e+00
+Gtt_min_interior = -7.598544054195e-01
+Gtt_max_interior = 1.945753305420e+00
+
+Convergence table:
+N, h, raw_u_residual, minus_lap_u_residual, composite_residual, max_divG, good_signature_count, total_count
+31, 0.06666666666666667, 0.6165068628305507, 0.3065082424295565, 0.011535786231067087, 0.08156693086217695, 529, 529
+41, 0.05, 0.6864014775915074, 0.327712123911818, 0.013117352362231553, 0.047517990380266786, 1089, 1089
+61, 0.03333333333333333, 0.7347105769953209, 0.3470092367360393, 0.01487967378939107, 0.02256484692007052, 2809, 2809
+81, 0.025, 0.7381144995504746, 0.3486675541961445, 0.01493917702713645, 0.012997282179377824, 5041, 5041
+101, 0.02, 0.7269659115868576, 0.3439847553987097, 0.01435368120696644, 0.008389746086706642, 7569, 7569
+
+Conclusion:
+4D does not close the gravity loop. Raw u is correlated with G_tt but fails strict proportionality.
+-laplacian(u) performs better. A composite differential source performs better still.
+The correct next step is to define a tensorial relational stress-energy candidate, not just a scalar source bump.

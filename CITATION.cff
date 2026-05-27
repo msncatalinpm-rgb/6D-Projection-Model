@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "V4.2 6D Projection Framework: Relational Network Architecture"
+message: "If you use or discuss this framework, please cite this repository."
+type: software
+authors:
+  - family-names: "Muresan"
+    given-names: "Catalin"
+version: "4.2 Rev A GitHub Submittal"
+date-released: "2026-05-27"
+abstract: "Speculative 6D projection framework with toy-model structural-compatibility tests across graph geometry, quantum states/dynamics, weak-field gravity, and dark-sector analogues."

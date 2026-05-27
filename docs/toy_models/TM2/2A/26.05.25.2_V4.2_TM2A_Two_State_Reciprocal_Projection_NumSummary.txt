@@ -1,0 +1,25 @@
+V4.2 Toy Model 2A - Numerical Summary
+Two-State Reciprocal Projection Test
+
+Projection candidate:
+Pi_2A(n) = cos(theta/2)|0> + exp(i phi) sin(theta/2)|1>
+
+Hidden vector:
+n = (sin(theta)cos(phi), sin(theta)sin(phi), cos(theta)), |n|=1
+
+Random state checks:
+Samples: 10000
+Maximum normalization error: 4.440892098501e-16
+Mean normalization error: 4.595213098924e-17
+Maximum z-axis Born compatibility error: 2.220446049250e-16
+Maximum random-axis probability range error: 0.000000000000e+00
+
+No-signalling marginal check:
+Bell state: |Phi+> = (|00> + |11>) / sqrt(2)
+rho_A from remote Z-basis reading = [[0.5, 0.0], [0.0, 0.5]]
+rho_A from remote X-basis reading = [[0.5, 0.0], [0.0, 0.5]]
+Maximum local marginal difference: 0.000000000000e+00
+
+Conclusion:
+Toy Model 2A passes normalization, Born-rule compatibility, qubit rotation compatibility, and minimal no-signalling checks.
+It does not derive the Born rule, Hilbert space, or Quantum Mechanics. It is a compatibility model and formal starting point.

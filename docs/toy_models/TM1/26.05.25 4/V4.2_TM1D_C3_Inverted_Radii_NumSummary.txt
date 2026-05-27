@@ -1,0 +1,17 @@
+V4.2 Toy Model 1D-C3 - Inverted Radii: Wide Connectivity + Tight Radial Delay
+Cost rule:
+c_ij = c0_ij * [1 + lambda0 R_lambda0 + lambda_r R_lambdar (e_hat dot r_hat)^2] / [1 + mu R_mu (e_hat dot g_hat)^2]
+rho_lambda0=4.0, rho_mu=4.0, rho_lambdar=2.0, grid=21x21, 8-neighbour connections
+lambda0 fixed at 0.5 for main C3 cases, with controls included.
+Goldilocks score is a rough exploratory heuristic, not physics.
+
+C3_flat_control: lambda0=0.000000, lambda_r=0.000000, mu=0.000000, scout_cost=20.000000, L=0.000000, avg_bundle_delay=0.000000, F_center=0.000000, detour=0.000000, wide_paths=5/9, core_paths=3/9, central_crossings=1/9, goldilocks_score=0.000000, description=Flat control
+C3_lambda0_only: lambda0=0.500000, lambda_r=0.000000, mu=0.000000, scout_cost=24.952133, L=4.952133, avg_bundle_delay=2.695077, F_center=0.000000, detour=0.000000, wide_paths=5/9, core_paths=3/9, central_crossings=1/9, goldilocks_score=0.000000, description=Wide minor scalar delay only
+C3_connect_only_mu2: lambda0=0.000000, lambda_r=0.000000, mu=2.000000, scout_cost=11.297773, L=-8.702227, avg_bundle_delay=-5.197181, F_center=5.000000, detour=-5.000000, wide_paths=9/9, core_paths=9/9, central_crossings=9/9, goldilocks_score=2.600000, description=Wide vectorial connectivity only
+C3_core_delay_only: lambda0=0.500000, lambda_r=2.000000, mu=0.000000, scout_cost=26.842933, L=6.842933, avg_bundle_delay=3.070474, F_center=-0.750000, detour=0.750000, wide_paths=3/9, core_paths=0/9, central_crossings=0/9, goldilocks_score=-0.750000, description=Wide scalar + tight radial delay only
+C3_lamr1_mu2: lambda0=0.500000, lambda_r=1.000000, mu=2.000000, scout_cost=15.290061, L=-4.709939, avg_bundle_delay=-1.407173, F_center=2.250000, detour=-1.750000, wide_paths=7/9, core_paths=7/9, central_crossings=5/9, goldilocks_score=0.650000, description=Wide pull; mild tight push
+C3_lamr2_mu2: lambda0=0.500000, lambda_r=2.000000, mu=2.000000, scout_cost=17.106792, L=-2.893208, avg_bundle_delay=-0.769387, F_center=0.250000, detour=0.000000, wide_paths=5/9, core_paths=3/9, central_crossings=1/9, goldilocks_score=0.250000, description=Balanced tight push and wide pull
+C3_lamr2_mu3: lambda0=0.500000, lambda_r=2.000000, mu=3.000000, scout_cost=14.099150, L=-5.900850, avg_bundle_delay=-2.620349, F_center=3.000000, detour=-2.000000, wide_paths=9/9, core_paths=7/9, central_crossings=3/9, goldilocks_score=1.400000, description=Candidate Goldilocks
+C3_lamr3_mu3: lambda0=0.500000, lambda_r=3.000000, mu=3.000000, scout_cost=15.479768, L=-4.520232, avg_bundle_delay=-2.036239, F_center=2.500000, detour=-1.750000, wide_paths=9/9, core_paths=5/9, central_crossings=1/9, goldilocks_score=1.700000, description=Stronger tight push and pull
+C3_lamr3_mu5: lambda0=0.500000, lambda_r=3.000000, mu=5.000000, scout_cost=11.591188, L=-8.408812, avg_bundle_delay=-5.186121, F_center=3.750000, detour=-2.750000, wide_paths=9/9, core_paths=9/9, central_crossings=7/9, goldilocks_score=1.350000, description=Strong wide pull; strong tight push
+C3_lamr4_mu6: lambda0=0.500000, lambda_r=4.000000, mu=6.000000, scout_cost=11.162731, L=-8.837269, avg_bundle_delay=-5.834531, F_center=3.250000, detour=-2.250000, wide_paths=9/9, core_paths=9/9, central_crossings=3/9, goldilocks_score=0.850000, description=Aggressive pull/push stress test

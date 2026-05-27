@@ -1,0 +1,34 @@
+V4.2 Toy Model 3D - Numerical Summary
+Adding Potentials as Position-Dependent Phase Rotation Rate
+
+Starting point:
+Free-particle structure from 3C:
+i hbar dpsi/dt = -(hbar^2/2m) d2psi/dx2
+
+Potential as phase-rate shift:
+omega_V(x) = V(x) / hbar
+
+Potential-only evolution:
+dpsi/dt = -i [V(x)/hbar] psi
+i hbar dpsi/dt = V(x) psi
+
+Full kinetic-plus-potential structure:
+i hbar dpsi/dt = [-(hbar^2/2m)d2/dx2 + V(x)] psi
+
+Numerical checks:
+Grid points: 128
+Potential Hermiticity error: 0.000000000000e+00
+Kinetic Hermiticity error: 0.000000000000e+00
+Hamiltonian Hermiticity error: 0.000000000000e+00
+Generator anti-Hermiticity error: 0.000000000000e+00
+Max norm drift under evolution: 4.440892098501e-16
+Max energy drift under evolution: 8.437694987151e-15
+Max norm-derivative error: 3.330669073875e-15
+Max imaginary energy expectation: 1.665334536938e-15
+Constant-potential plane-wave residual: 3.662053438818e-15
+Potential phase-rate identity error: 0.000000000000e+00
+
+Conclusion:
+Toy Model 3D shows that a real scalar potential can be represented as a local hidden phase-rotation-rate shift.
+It recovers the structural kinetic-plus-potential Schrodinger form and preserves norm when V(x) is real.
+It does not derive actual force fields, mass, hbar, relativistic QM, QFT, the Standard Model, or physical 3T existence.

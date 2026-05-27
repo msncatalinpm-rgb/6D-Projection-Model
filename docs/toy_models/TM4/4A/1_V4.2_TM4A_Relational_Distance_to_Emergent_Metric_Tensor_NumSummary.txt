@@ -1,0 +1,47 @@
+V4.2 Toy Model 4A - Numerical Summary
+From Relational Distance Matrix to Emergent Metric Tensor Candidate
+
+Metric extraction rule:
+d_ij^2 ~= g_xx dx^2 + 2 g_xy dx dy + g_yy dy^2
+
+Controlled graph:
+ds = n(x,y) sqrt(dx^2 + dy^2)
+n(x,y) = 1 + A exp[-(x^2+y^2)/(2 rho^2)]
+g_ab = n(x,y)^2 delta_ab
+
+Main grid diagnostics:
+N_main: 41
+Fitted interior metric points: 1369
+Mean relative metric error: 1.255306988359e-03
+95th percentile relative metric error: 1.946091727786e-03
+Max relative metric error: 2.619858783144e-03
+Mean |g_xy| extracted: 1.196268296983e-03
+Max |g_xy| extracted: 2.913362075088e-03
+
+Signature diagnostics:
+Positive eigenvalue count: 2738
+Zero-ish eigenvalue count: 0
+Negative eigenvalue count: 0
+Minimum eigenvalue: 1.014169240720e+00
+Maximum eigenvalue: 2.882428608117e+00
+
+MDS embedding diagnostics:
+Sampled nodes: 121
+MDS stress flat graph: 2.780269297412e-02
+MDS stress conformal source graph: 8.410124546989e-02
+Positive MDS eigenvalues: 51
+Top 6 MDS eigenvalues: 8.589899596937e+01, 8.589899596937e+01, 6.501508833650e+00, 5.197743150542e+00, 5.197743150542e+00, 1.576130645749e+00
+
+Convergence table:
+N, h, mean_error, p95_error, max_error, min_eigenvalue, max_anisotropy
+13, 0.16666666666666666, 0.015867812775723994, 0.024301277769515125, 0.028427737381071502, 1.1104790762374568, 0.01811161776905037
+17, 0.125, 0.00862704306977024, 0.012674852585335359, 0.01617323791989746, 1.0569365833228235, 0.010454262513261349
+25, 0.08333333333333333, 0.0036547315964314845, 0.005405106730159294, 0.007246963073550713, 1.0271485624704941, 0.004814752173489916
+33, 0.0625, 0.001997918350000798, 0.0031054840343540157, 0.004088102880806543, 1.0181928783957017, 0.002726773073213637
+45, 0.045454545454545456, 0.0010302760982738692, 0.001586495614911151, 0.0021660593012169027, 1.0129144280457099, 0.0014391023750513997
+
+Conclusion:
+Toy Model 4A demonstrates that local Riemannian metric components can be extracted from relational graph distances.
+The extraction improves in the dense-network limit.
+Critical failure/guardrail: positive shortest-path distances do not produce Lorentzian signature.
+Next step must introduce causal/time structure before GR can be approached.

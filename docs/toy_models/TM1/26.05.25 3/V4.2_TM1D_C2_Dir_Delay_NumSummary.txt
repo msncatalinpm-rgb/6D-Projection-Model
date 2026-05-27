@@ -1,0 +1,15 @@
+V4.2 Toy Model 1D-C2 - Directional Delay + Vectorial Connectivity
+Cost rule:
+c_ij = c0_ij * [1 + lambda0 R_lambda + lambda_r R_lambda (e_hat dot r_hat)^2] / [1 + mu R_mu (e_hat dot g_hat)^2]
+rho_lambda=4.0, rho_mu=2.0, grid=21x21, 8-neighbour connections
+lambda0 fixed at 0.5 for main C2 cases, with control cases included.
+
+C2_flat_control: lambda0=0.000000, lambda_r=0.000000, mu=0.000000, scout_cost=20.000000, L=0.000000, avg_bundle_delay=0.000000, F_center=0.000000, detour=0.000000, inner_paths=3/9, central_crossings=1/9, description=Flat control
+C2_lambda0_only: lambda0=0.500000, lambda_r=0.000000, mu=0.000000, scout_cost=24.952133, L=4.952133, avg_bundle_delay=2.695077, F_center=0.000000, detour=0.000000, inner_paths=3/9, central_crossings=1/9, description=Minor scalar delay only
+C2_radial_delay_only: lambda0=0.500000, lambda_r=1.000000, mu=0.000000, scout_cost=27.873694, L=7.873694, avg_bundle_delay=3.728243, F_center=-1.750000, detour=1.750000, inner_paths=0/9, central_crossings=0/9, description=Scalar + radial directional delay only
+C2_connect_only: lambda0=0.000000, lambda_r=0.000000, mu=3.000000, scout_cost=14.630575, L=-5.369425, avg_bundle_delay=-2.039584, F_center=3.000000, detour=-3.000000, inner_paths=7/9, central_crossings=7/9, description=Vectorial connectivity only comparison
+C2_balanced_lamr1_mu1: lambda0=0.500000, lambda_r=1.000000, mu=1.000000, scout_cost=27.843325, L=7.843325, avg_bundle_delay=3.722198, F_center=-1.750000, detour=1.750000, inner_paths=0/9, central_crossings=0/9, description=Balanced radial delay/connectivity
+C2_focus_lamr1_mu2: lambda0=0.500000, lambda_r=1.000000, mu=2.000000, scout_cost=24.666531, L=4.666531, avg_bundle_delay=3.366553, F_center=-1.750000, detour=1.750000, inner_paths=1/9, central_crossings=1/9, description=Connectivity moderately stronger
+C2_focus_lamr2_mu3: lambda0=0.500000, lambda_r=2.000000, mu=3.000000, scout_cost=28.086497, L=8.086497, avg_bundle_delay=4.041641, F_center=-2.250000, detour=2.250000, inner_paths=1/9, central_crossings=1/9, description=Candidate Goldilocks zone
+C2_delay_lamr3_mu1: lambda0=0.500000, lambda_r=3.000000, mu=1.000000, scout_cost=28.935323, L=8.935323, avg_bundle_delay=4.356820, F_center=-2.750000, detour=2.750000, inner_paths=0/9, central_crossings=0/9, description=Delay dominant
+C2_strong_lamr3_mu5: lambda0=0.500000, lambda_r=3.000000, mu=5.000000, scout_cost=28.913039, L=8.913039, avg_bundle_delay=4.353358, F_center=-2.750000, detour=2.750000, inner_paths=0/9, central_crossings=0/9, description=Strong delay and stronger connectivity

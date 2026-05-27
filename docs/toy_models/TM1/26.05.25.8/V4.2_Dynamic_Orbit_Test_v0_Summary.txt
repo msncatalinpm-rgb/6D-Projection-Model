@@ -1,0 +1,57 @@
+V4.2 Dynamic Orbit Test v0 - Summary
+Benchmark static field: C3_tuned_l03_lr12_mu6
+Parameters: lambda0=3, lambda_r=12, mu=6, rho0=4, rhor=2, rhom=4
+
+Dynamic law used:
+U(r) = lambda0 R0(r) + lambda_r Rr(r) - mu Rm(r)
+a = -grad(U)
+This is a toy force/potential analogue derived from the C3 radial profiles.
+It is not a geodesic equation, not General Relativity, and not a physical gravity derivation.
+
+Simulation: start=(6,0), velocity=(0,v0), dt=0.02, t_max=300.0, escape_r=20.0, core_r=1.2
+
+Best bounded case by near-circular score:
+v0=1.000000, label=near_circular_bounded, status=bounded, turns=7.941508, rmin=5.999100, rmax=6.011140, radial_span=0.012039, score=17.917430
+
+Representative cases:
+v0=0.400000, label=elliptical_bounded, status=bounded, turns=3.707758, rmin=5.125787, rmax=6.000010, radial_span=0.874223, t_end=299.980000
+v0=1.000000, label=near_circular_bounded, status=bounded, turns=7.941508, rmin=5.999100, rmax=6.011140, radial_span=0.012039, t_end=299.980000
+v0=1.400000, label=elliptical_bounded, status=bounded, turns=8.345035, rmin=5.999992, rmax=7.828236, radial_span=1.828244, t_end=299.980000
+v0=1.600000, label=escape, status=escape, turns=0.380873, rmin=6.000019, rmax=19.996526, radial_span=13.996507, t_end=24.840000
+
+Full velocity sweep:
+v0=0.000000, label=radial_oscillation, status=bounded, turns=0.000000, rmin=4.976381, rmax=6.000008, span=1.023627, t_end=299.980000, score=-2.047255
+v0=0.100000, label=radial_oscillation, status=bounded, turns=0.953465, rmin=4.985637, rmax=6.000008, span=1.014371, t_end=299.980000, score=-1.075277
+v0=0.200000, label=wide_bounded, status=bounded, turns=1.897244, rmin=5.013463, rmax=6.000008, span=0.986545, t_end=299.980000, score=-0.075846
+v0=0.300000, label=elliptical_bounded, status=bounded, turns=2.819052, rmin=5.060051, rmax=6.000009, span=0.939958, t_end=299.980000, score=0.939137
+v0=0.400000, label=elliptical_bounded, status=bounded, turns=3.707758, rmin=5.125787, rmax=6.000010, span=0.874223, t_end=299.980000, score=1.959312
+v0=0.500000, label=elliptical_bounded, status=bounded, turns=4.567034, rmin=5.211355, rmax=6.000007, span=0.788652, t_end=299.980000, score=2.989730
+v0=0.600000, label=near_circular_bounded, status=bounded, turns=5.370570, rmin=5.317888, rmax=6.000013, span=0.682125, t_end=299.980000, score=14.006321
+v0=0.700000, label=near_circular_bounded, status=bounded, turns=6.126804, rmin=5.447215, rmax=6.000016, span=0.552801, t_end=299.980000, score=15.021202
+v0=0.800000, label=near_circular_bounded, status=bounded, turns=6.809433, rmin=5.602213, rmax=6.000023, span=0.397810, t_end=299.980000, score=16.013813
+v0=0.850000, label=near_circular_bounded, status=bounded, turns=7.126759, rmin=5.690667, rmax=6.000030, span=0.309363, t_end=299.980000, score=16.508032
+v0=0.875000, label=near_circular_bounded, status=bounded, turns=7.274100, rmin=5.737948, rmax=6.000036, span=0.262088, t_end=299.980000, score=16.749924
+v0=0.900000, label=near_circular_bounded, status=bounded, turns=7.419862, rmin=5.787417, rmax=6.000035, span=0.212618, t_end=299.980000, score=16.994627
+v0=0.925000, label=near_circular_bounded, status=bounded, turns=7.561120, rmin=5.839203, rmax=6.000060, span=0.160857, t_end=299.980000, score=17.239406
+v0=0.950000, label=near_circular_bounded, status=bounded, turns=7.693562, rmin=5.893449, rmax=6.000092, span=0.106643, t_end=299.980000, score=17.480276
+v0=0.975000, label=near_circular_bounded, status=bounded, turns=7.820329, rmin=5.950267, rmax=6.000199, span=0.049932, t_end=299.980000, score=17.720466
+v0=1.000000, label=near_circular_bounded, status=bounded, turns=7.941508, rmin=5.999100, rmax=6.011140, span=0.012039, t_end=299.980000, score=17.917430
+v0=1.025000, label=near_circular_bounded, status=bounded, turns=8.055486, rmin=5.999861, rmax=6.073228, span=0.073367, t_end=299.980000, score=17.908752
+v0=1.050000, label=near_circular_bounded, status=bounded, turns=8.163588, rmin=5.999926, rmax=6.139354, span=0.139428, t_end=299.980000, score=17.884732
+v0=1.075000, label=near_circular_bounded, status=bounded, turns=8.259752, rmin=5.999950, rmax=6.209170, span=0.209220, t_end=299.980000, score=17.841311
+v0=1.100000, label=near_circular_bounded, status=bounded, turns=8.353743, rmin=5.999962, rmax=6.283011, span=0.283048, t_end=299.980000, score=17.787647
+v0=1.125000, label=near_circular_bounded, status=bounded, turns=8.433883, rmin=5.999970, rmax=6.361296, span=0.361326, t_end=299.980000, score=17.711232
+v0=1.150000, label=near_circular_bounded, status=bounded, turns=8.505939, rmin=5.999975, rmax=6.444542, span=0.444567, t_end=299.980000, score=17.616805
+v0=1.200000, label=near_circular_bounded, status=bounded, turns=8.617801, rmin=5.999982, rmax=6.628523, span=0.628541, t_end=299.980000, score=17.360718
+v0=1.250000, label=near_circular_bounded, status=bounded, turns=8.684998, rmin=5.999986, rmax=6.841876, span=0.841890, t_end=299.980000, score=17.001219
+v0=1.300000, label=elliptical_bounded, status=bounded, turns=8.673473, rmin=5.999989, rmax=7.095800, span=1.095811, t_end=299.980000, score=6.481851
+v0=1.350000, label=elliptical_bounded, status=bounded, turns=8.582438, rmin=5.999990, rmax=7.410373, span=1.410383, t_end=299.980000, score=5.761672
+v0=1.400000, label=elliptical_bounded, status=bounded, turns=8.345035, rmin=5.999992, rmax=7.828236, span=1.828244, t_end=299.980000, score=4.688546
+v0=1.450000, label=elliptical_bounded, status=bounded, turns=7.797696, rmin=5.999993, rmax=8.477790, span=2.477798, t_end=299.980000, score=2.842100
+v0=1.500000, label=escape, status=escape, turns=0.604256, rmin=6.000009, rmax=19.972098, span=13.972089, t_end=43.980000, score=0.000000
+v0=1.550000, label=escape, status=escape, turns=0.435842, rmin=6.000014, rmax=19.950301, span=13.950287, t_end=29.900000, score=0.000000
+v0=1.600000, label=escape, status=escape, turns=0.380873, rmin=6.000019, rmax=19.996526, span=13.996507, t_end=24.840000, score=0.000000
+v0=1.700000, label=escape, status=escape, turns=0.327236, rmin=6.000030, rmax=20.018694, span=14.018664, t_end=19.620000, score=0.000000
+v0=1.800000, label=escape, status=escape, turns=0.298448, rmin=6.000042, rmax=19.960568, span=13.960526, t_end=16.660000, score=0.000000
+v0=1.900000, label=escape, status=escape, turns=0.280057, rmin=6.000054, rmax=19.939163, span=13.939109, t_end=14.680000, score=0.000000
+v0=2.000000, label=escape, status=escape, turns=0.267453, rmin=6.000067, rmax=20.025880, span=14.025813, t_end=13.220000, score=0.000000

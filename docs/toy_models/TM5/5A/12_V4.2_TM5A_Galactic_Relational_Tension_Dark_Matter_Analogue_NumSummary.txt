@@ -1,0 +1,52 @@
+V4.2 Toy Model 5A - Numerical Summary
+Galactic-Scale Relational Tension and Dark Matter Analogue
+
+Purpose:
+Test whether a large-scale relational graph tension term can mimic flat galactic rotation curves.
+
+Visible-source model:
+v_b^2(r) = G M_b r^2 / (r^2 + a_b^2)^(3/2)
+
+Relational-tension ansatz:
+v_rel^2(r) = V_inf^2 [1 - exp(-r/R_t)]
+
+Total:
+v_total^2 = v_b^2 + v_rel^2
+
+Equivalent inferred mass:
+M_eff = v_total^2 r / G
+M_rel = v_rel^2 r / G
+
+Parameters:
+G = 1.0
+M_b = 1.0
+visible softening a_b = 2.2
+V_inf = 0.55
+R_t = 6.0
+
+Main diagnostics:
+outer_slope_visible_v = -4.908515621466e-01
+outer_slope_relational_v = 2.239216357702e-02
+outer_slope_total_v = -3.119193540668e-02
+outer_visible_cv = 1.375606473438e-01
+outer_total_cv = 7.339762425749e-03
+outer_mean_visible_v = 1.948013171125e-01
+outer_mean_total_v = 5.790441370138e-01
+relational_mass_linear_R2_outer = 9.997905365548e-01
+outer_equivalent_density_log_slope = -2.104343456697e+00
+outer_visible_acceleration_slope = -1.981703124293e+00
+outer_relational_acceleration_slope = -9.552156728460e-01
+
+Radius checks:
+r, v_b, v_rel, v_total, M_visible_eff, M_rel_equiv, relational_fraction
+5.000000, 3.916251186764e-01, 4.135611615175e-01, 5.695643794115e-01, 7.668446052279e-01, 8.551763160843e-01, 5.272289061429e-01
+10.000000, 3.052145381594e-01, 4.953430422877e-01, 5.818253715110e-01, 9.315562956711e-01, 2.453652017720e+00, 7.248156658525e-01
+15.000000, 2.541103172985e-01, 5.269432031610e-01, 5.850138673638e-01, 9.685795267452e-01, 4.165038891273e+00, 8.113261547945e-01
+20.000000, 2.215988823371e-01, 5.401005113168e-01, 5.837933179650e-01, 9.821206491481e-01, 5.834171910263e+00, 8.559157136247e-01
+30.000000, 1.818412664439e-01, 5.481439273944e-01, 5.775188422037e-01, 9.919872156303e-01, 9.013853025194e+00, 9.008591790639e-01
+40.000000, 1.577561090002e-01, 5.496499142864e-01, 5.718409028760e-01, 9.954795970759e-01, 1.208460113100e+01, 9.238934668852e-01
+
+Conclusion:
+The relational-tension ansatz produces a flat outer rotation curve and a Newtonian-equivalent halo-like mass profile.
+Guardrail: the relational-tension law is assumed here, not derived from first principles.
+Next recommended chapter: Toy Model 5B - derive the relational tension term from graph edge economics.

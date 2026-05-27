@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data outputs
+outputs/
+renders/
+tmp/
+*.log
+
+# Large raw datasets should be linked or scripted, not committed blindly
+data/raw/
