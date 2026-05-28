@@ -1,492 +1,571 @@
 # V4.2 6D Projection Framework
 
-**Current active version:** V4.2
-
-Start here: [START_HERE.md](START_HERE.md)
-
-Version history: [VERSION_HISTORY.md](VERSION_HISTORY.md)
-
-**Status:** Speculative research framework; toy-model structural compatibility only.
-
-The V4.2 6D Projection Framework explores whether selected structures in quantum mechanics, weak-field gravity, and dark-sector phenomenology can be modeled as projected consequences of a deeper relational architecture.
-
-This repository is intended as a public research foundation. It contains the consolidated Toy Model binder, thought-experiment notes, guardrails, and the roadmap for future reproducible testing.
+**Current active version:** V4.2  
+**Current public extension:** Toy Model 5G - Full SPARC Diagnostic Baseline  
+**Status:** Speculative integrated geometric research architecture; toy-model structural compatibility and reproducible diagnostic testing only; not a validated physical theory.
 
 ---
 
-## Version Continuity and Frame of Mind
+## What This Repository Is
 
-The V4.2 framework should be read as the third step in a developing line of exploration.
+The 6D Projection Framework is best understood not as a collection of isolated equations, but as an integrated geometric research architecture.
 
-### What V4 Introduced
+It explores whether selected structures in quantum mechanics, weak-field gravity, and dark-sector phenomenology can be organized, visualized, and tested as observer-accessible projections of deeper relational organization.
 
-V4 introduced the geometric projection intuition.
+The central architectural thread is:
 
-It began from the possibility that some structures in quantum mechanics may admit a geometric interpretation if observable spacetime is treated as a restricted projection of a deeper relational-temporal structure.
+```text
+Relationship -> Organization -> Observable Order
+```
 
-In V4, the focus was mainly on quantum interpretation:
+In this view, observable order may not be the starting layer. It may be the stabilized projection of a deeper relational structure.
 
-- Born probability as a projection measure.
-- Double-slit interference as unresolved relational projection.
-- Entanglement as hidden relational proximity.
-- Observable spacetime as a stabilized projection sector.
+The framework begins from a simple visualization question:
 
-The purpose was not to replace quantum mechanics. The purpose was to ask whether some quantum phenomena that appear abstract in ordinary 3S+1T spacetime may become more intuitive when viewed as projection effects.
-
-### What V4.1 Was Predicated On
-
-V4.1 expanded the frame into the Embedded Observer Problem.
-
-It asked whether an observer inside the system may naturally mistake accessibility limits for fundamental reality.
-
-The central idea became:
-
-**Relationship → Organization → Observable Order**
-
-This means that observable order may not be the starting point. It may be the final projection of a deeper relationship network.
-
-The practical analogy was dependency-based scheduling. A calendar appears as a clean linear sequence, but in a scheduling engine, the calendar is only the visible projection of deeper task dependencies, constraints, waiting conditions, and integration logic.
-
-V4.1 asked whether physical reality may have a similar structure.
-
-The central visualization became:
-
-- **Parent structure:** 3S + 3T
-- **Observable sector:** 3S + 1T
-- **Hidden relational sector:** 3T + 1S
-
-In plain language, V4.1 explored the possibility that what we experience as linear time may be only a restricted, observer-accessible projection of a deeper three-degree-of-freedom temporal or relational sector.
-
-This gave a common frame for several exploratory ideas:
-
-- Quantum phase as hidden temporal angle.
-- Entanglement as hidden relational proximity.
-- Decoherence as relational branching and record-locking.
-- Gravity as relational cost and metric response.
-- Dark-sector effects as large-scale network tension.
-- Temporal stabilization as a possible source of memory, record consistency, causal ordering, and classicality.
-
-### What V4.2 Added
-
-V4.2 added mathematical Toy Models.
-
-The purpose of V4.2 was to prevent the framework from remaining only philosophical.
-
-The Toy Models were created to test whether the V4 / V4.1 architecture could reproduce selected mathematical structures associated with quantum mechanics, weak-field gravity, and dark-sector phenomenology.
-
-V4.2 therefore represents the current technical baseline.
-
-It does not claim physical proof.
-
-It does not claim real-data validation.
-
-It does not replace established physics.
-
-It tests whether the framework has coherent toy-model structural compatibility.
-
----
-
-## Originating Visualization Question
-
-The 6D Projection Framework began with a simple visualization question:
-
-**What if the thing we experience as linear time is not the full structure of time, but only a one-dimensional, observer-accessible projection of a deeper three-degree-of-freedom temporal or relational sector?**
-
-In this view, an embedded observer has ordinary access to three spatial dimensions, but only restricted, linear access to the hidden temporal-relational structure. The observer experiences this restricted access as a single ordered time sequence.
+> What if the thing we experience as linear time is only a one-dimensional, observer-accessible projection of a deeper three-degree-of-freedom temporal or relational sector?
 
 This leads to the working split:
 
-- **Observable sector:** 3S + 1T — three spatial degrees of freedom plus one restricted temporal projection.
-- **Hidden relational sector:** 3T + 1S — three relational or temporal degrees of freedom plus one restricted spatial projection.
+```text
+Parent structure:          3S + 3T
+Observable sector:         3S + 1T
+Hidden relational sector:  3T + 1S
+```
 
-The framework does not claim that this hidden sector has been physically proven. It uses the idea as a geometric starting point for disciplined exploration.
+The framework does **not** claim that hidden physical `3T` has been proven.
 
-The central purpose of the model is to ask whether physical structures that appear abstract from within our 3S+1T projection may become more intuitive if interpreted as projection effects from this hidden 3T+1S relational sector.
-
-In that sense:
-
-- Quantum phase may correspond to hidden temporal angle.
-- Complex amplitudes may correspond to projected rotational geometry.
-- Decoherence may correspond to relational branching and record-locking.
-- Entanglement may correspond to hidden relational proximity.
-- Gravity may correspond to relational cost and metric response.
-- Dark-sector effects may correspond to large-scale network tension and capacity limits.
-
-The Toy Models within this repository were created to test this idea step by step, while keeping clear guardrails around conservation, causality, probability, and no-signalling.
+It uses the idea as a disciplined geometric starting point for asking whether familiar physical structures may be interpretable as projected effects from deeper relational organization.
 
 ---
 
-## Purpose of the Exploration
+## Core Interpretation: Accessibility, Projection, and Intuitive Lensing
 
-The purpose of the 6D Projection Framework is to explore whether some of the most abstract structures in modern physics may admit a more geometric and relational interpretation.
+The 6D Projection Framework is not simply an "extra dimensions" proposal in the usual sense.
 
-Standard quantum mechanics is extremely successful mathematically, but many of its core concepts remain difficult to visualize physically:
+It is primarily an accessibility model.
 
-- complex amplitudes,
-- wavefunction collapse,
-- decoherence,
-- entanglement,
-- measurement update,
-- Born probabilities,
-- Hilbert-space phase.
+The framework asks whether some things we treat as fundamental laws may instead be structural artifacts of an embedded observer limited to a particular projection window:
 
-These are usually handled through abstract mathematical formalism. The 6D Projection Framework asks whether some of these structures can be reinterpreted as projection effects from a deeper relational geometry.
+```text
+Observable sector:         3S + 1T
+Hidden relational sector:  3T + 1S
+Parent structure:          3S + 3T
+```
 
-The aim is not to replace established physics by assertion. The aim is to build a disciplined exploratory model that tests whether familiar physical structures can arise as shadows of relational geometry.
+In this view, the observer does not access the full parent structure directly. The observer experiences a stabilized `3S + 1T` projection and may naturally mistake the boundaries of that projection for fundamental reality.
 
-The central question is:
+This is the Embedded Observer Problem.
 
-**Can abstract quantum and gravitational behavior be given a coherent geometric interpretation through a 3T → 1T projection architecture?**
+The observer is treated as being inside a topological boundary of accessibility. What appears from within the system as linear time, quantum phase, collapse, metric structure, or dark-sector behavior may be partly shaped by the geometry of that boundary.
 
-If the answer is no, the Toy Models should expose where the framework fails.
+The purpose is not to assert that this is physically proven.
 
-If the answer is yes, the framework may offer a more intuitive way to understand why some physical phenomena look mathematically strange from within the observable 3S+1T projection.
+The purpose is to test whether this projection architecture can organize and reproduce selected structures from known physics in a disciplined way.
 
----
+This also gives the framework a pedagogical role.
 
-## Why the Toy Models Were Devised
+Modern physics often relies on abstract mathematical machinery that works extremely well but can be difficult to visualize directly:
 
-The Toy Models were devised to prevent the framework from remaining only philosophical.
+```text
+Hilbert spaces
+complex amplitudes
+gauge phase
+spinors
+decoherence
+entanglement
+curvature
+dark-sector phenomenology
+```
 
-Instead of claiming that the 6D architecture explains quantum mechanics, gravity, or the dark sector, V4.2 breaks the problem into controlled structural tests.
-
-Each Toy Model asks a limited question:
-
-**If the 6D projection idea is mathematically sensible, can it reproduce the shape of known physical structures without contradicting basic conservation, probability, causality, or no-signalling requirements?**
-
-The Toy Models are therefore not final proofs of physical reality. They are compatibility tests.
-
-They serve four purposes:
-
-1. Translate intuition into mathematical structure.
-2. Check whether the structure preserves known constraints.
-3. Identify which parts emerge naturally and which are still assumed.
-4. Define what must be tested next with real data.
-
-The Toy Models are included as an evidence trail: reports, numerical summaries, and close-out documents. They are not yet presented as a cleaned reproducible codebase. That is the purpose of the next phase, Toy Model 5G.
-
----
-
-## Current Public Release Scope
-
-This first GitHub release should publish the **framework and documentation only**.
-
-It should **not** yet claim real-data validation.
-
-The immediate next technical step is:
-
-**Toy Model 5G — Minimal Real-Galaxy Rotation-Curve Fitting Protocol**
-
-5G should be developed as the first post-release reproducible data protocol.
-
----
-
-## Version History and Legacy Material
-
-Older V4 / V4.1 material remains available in the repository history and in the legacy folder.
-
-The current active version is **V4.2**.
-
-See:
-
-- [VERSION_HISTORY.md](VERSION_HISTORY.md)
-- [docs/10_LEGACY_REPO_UPGRADE_NOTE.md](docs/10_LEGACY_REPO_UPGRADE_NOTE.md)
-
----
-
-## Primary Documents
-
-The repository includes two baseline documents:
-
-1. **V4.2 Master Binder — Toy Models 1-5**  
-   Consolidates the mathematical toy-model tracks: graph geometry, quantum states, quantum dynamics, weak-field gravity, and dark-sector analogues.
-
-2. **V4.2 Thought Experiment Notes Rev C**  
-   Consolidates the visualization track: weak 3S/3T coupling, projected time, black holes, gravitational waves, entanglement, the Breathing Universe, JWST stress-test framing, Entanglement E2, relational reweighting, and the Special Relativity bridge note.
-
-See [docs/papers/](docs/papers/).
-
----
-
-## Compatibility Demonstrated by the Toy Model Tracks
-
-### Toy Model 1 — Graph Geometry
-
-Toy Model 1 tested whether a relational network with node density and edge costs can produce geometry-like behavior.
-
-It explored path delay, path focusing, orbit-like capture, and observable order from relational organization.
-
-**Compatibility demonstrated:**  
-A graph-based relational system can produce geometry-like operational effects.
-
-**Guardrail:**  
-This is not General Relativity. It is only a graph-geometric analogue.
-
-### Toy Model 2 — Quantum States
-
-Toy Model 2 tested whether quantum-state behavior can be interpreted as relational projection rather than physical destruction of alternatives.
-
-It explored probability normalization, Bell-type correlations, decoherence, measurement update, quantum erasure, and macroscopic irreversibility.
-
-**Compatibility demonstrated:**  
-The framework can represent collapse-like quantum behavior as observer-relative relational updating while preserving global unitary structure and no-signalling.
-
-**Geometric interpretation:**  
-Collapse is not treated as physical destruction. It is treated as the 1T observer locking into one accessible relational branch of a larger 3T-compatible state.
-
-**Guardrail:**  
-This does not derive full quantum mechanics. It shows structural compatibility with selected quantum-state behaviors.
-
-### Toy Model 3 — Quantum Dynamics
-
-Toy Model 3 tested whether the mathematical machinery of quantum dynamics can be given a geometric interpretation.
-
-It explored complex amplitudes, hidden phase rotation, Schrödinger-type evolution, momentum and kinetic operators, scalar potentials, gauge phase connection, and relativistic spinor structure.
-
-**Compatibility demonstrated:**  
-Several abstract quantum structures can be mapped to geometric operations in a hidden transverse temporal phase plane.
-
-**Geometric interpretation:**
-
-- The imaginary unit *i* can be viewed as a 90-degree rotation operator in the hidden phase plane.
-- Complex phase becomes hidden temporal angle.
-- Probability amplitude magnitude becomes an invariant length measure.
-- Schrödinger evolution becomes uniform phase rotation.
-- Momentum and kinetic energy become spatial twisting of phase.
-- Gauge coupling becomes the connection required when local phase frames vary from point to point.
-
-**Guardrail:**  
-This does not derive the Standard Model, Quantum Field Theory, particle masses, charge values, or physical constants. It demonstrates structural compatibility only.
-
-### Toy Model 4 — Gravity and Spacetime
-
-Toy Model 4 tested whether spacetime-like geometry and weak-field gravitational structure can emerge from relational distance, directed causality, and conservation.
-
-It explored metric extraction from relational distances, Lorentzian signature from directed 1T causality, curvature from varying relational density, stress-energy tensor analogues, conservation constraints, trace-reversed spin-2 response, and weak-field Einstein-like structure.
-
-**Compatibility demonstrated:**  
-A conserved relational network with directed causal ordering can reproduce key weak-field spin-2 gravitational structures.
-
-**Geometric interpretation:**
-
-- Gravity is interpreted as the operational cost of maintaining relational structure.
-- Curvature appears when the relational cost of moving through the network varies.
-- The Lorentzian minus sign is linked to directed causal ordering rather than ordinary undirected distance.
-
-**Guardrail:**  
-This does not derive full nonlinear General Relativity or the Einstein-Hilbert action. It demonstrates compatibility with a weak-field gravitational analogue.
-
-### Toy Model 5 — Dark Sector Analogues
-
-Toy Model 5 tested whether the same relational network economics can mimic selected dark-sector signatures.
-
-It explored flat galactic rotation curves, effective relational tension, baryonic Tully-Fisher-type scaling, universal relational threshold A_R, cosmic horizon coupling, and dark matter / dark energy as local and global network effects.
-
-**Compatibility demonstrated:**  
-The framework can structurally mimic selected dark-sector phenomena through relational tension and network capacity limits.
-
-**Geometric interpretation:**
-
-- Dark Matter-like behavior is interpreted as local relational tension around galactic-scale knots.
-- Dark Energy-like behavior is interpreted as global background tension of the expanding relational network.
-- Both are treated as different scale expressions of the same relational capacity principle.
-
-The local galactic analogue can be summarized as:
-
-$v_{flat}^{4} = A_R G M_b$
-
-The global capacity background can be summarized as:
-
-$A_R = \xi c H_C$
-
-and:
-
-$p_C = -\rho_C$
-
-**Guardrail:**  
-This does not solve dark matter or dark energy. It has not yet fitted SPARC, CMB, Bullet Cluster, lensing, supernova, BAO, or structure-formation data.
-
----
-
-## Why the Geometric View Matters
-
-The value of the framework is not that it declares existing physics wrong.
-
-The value is that it may offer a more intuitive geometric language for physical structures that are currently handled mostly through abstract formalism.
+The 6D Projection Framework asks whether some of these structures can be given an intuitive geometric translation layer.
 
 For example:
 
-- Quantum phase may be interpreted as hidden temporal angle.
-- Complex amplitudes may represent projected rotational geometry.
-- Decoherence may represent relational branching and environmental record-locking.
-- Measurement may represent observer-accessible path selection.
-- Gravity may represent relational cost and metric response.
-- Dark-sector effects may represent large-scale network tension and capacity limits.
+```text
+complex phase        -> hidden temporal angle
+imaginary unit i     -> 90-degree rotation in a hidden phase plane
+collapse             -> observer-relative branch locking
+gravity              -> relational cost / metric response
+dark-sector effects  -> large-scale relational capacity or metric distortion
+```
 
-This does not prove the physical existence of a hidden 3T sector.
+This does not replace the standard mathematical formalisms.
 
-It only shows why the idea is worth testing carefully:
-
-**If the same relational architecture can reproduce quantum structure, weak-field gravity, and selected dark-sector signatures as different projections of one geometry, then the framework may provide a useful bridge between intuition, mathematics, and future data testing.**
-
----
-
-## Thought Experiment Track
-
-The Rev C thought-experiment chain includes:
-
-- **A:** Weak coupling of smooth 3S and 3T sectors.
-- **B:** Reversed 3T orientation and projected 1T arrow.
-- **C:** Black holes as extreme coupling knots.
-- **D:** Gravitational waves as propagating projection stress.
-- **E:** Entanglement across a coupling knot.
-- **E2:** Entanglement redistribution across a coupling knot.
-- **F:** Integrated black-hole merger picture.
-- **G:** Breathing Universe and JWST early-structure stress test.
-- **H:** Special Relativity bridge note: $c$ and $E = mc^2$.
-
-The thought experiments are visualization tools. They are not physical proof.
+It asks whether the same successful structures may become more visually and conceptually intelligible when interpreted as projected shadows of deeper relational organization.
 
 ---
 
-## Breathing Universe Note
+## Version Continuity
 
-The Rev C clarification describes the present universe as both a geometrical inhale and a thermodynamic exhale.
+### V4
 
-- **Geometrical inhale:** 3S expands; $a(t)$ increases.
-- **Thermodynamic exhale:** free energy is spent; entropy increases.
+V4 introduced the geometric projection intuition.
 
-The proposed coupling parameter is:
+It explored whether quantum phenomena such as Born probability, interference, and entanglement could be interpreted geometrically as projection effects from a deeper relational-temporal structure.
 
-$C(a)$ = 3S / 3T coupling strength as a function of cosmic scale factor.
+### V4.1
 
-JWST early-structure observations are treated only as a future stress-test arena, not as proof of V4.2.
+V4.1 expanded the framework into the Embedded Observer Problem.
 
----
+It introduced the organizing principle:
 
-## Toy Model Archive
+```text
+Relationship -> Organization -> Observable Order
+```
 
-The detailed Toy Model development files are included under:
+It also clarified the reciprocal architecture:
 
-- [docs/toy_models/TM1/](docs/toy_models/TM1/)
-- [docs/toy_models/TM2/](docs/toy_models/TM2/)
-- [docs/toy_models/TM3/](docs/toy_models/TM3/)
-- [docs/toy_models/TM4/](docs/toy_models/TM4/)
-- [docs/toy_models/TM5/](docs/toy_models/TM5/)
+```text
+Parent structure:          3S + 3T
+Observable sector:         3S + 1T
+Hidden relational sector:  3T + 1S
+```
 
-This archive contains the report PDFs, Word close-out documents where available, and numerical summary TXT files for Toy Models 1-5.
+V4.1 was predicated on the idea that embedded observers may mistake accessibility limits for fundamental reality.
 
-Nested `*_Package.zip` files from the working archive were intentionally excluded from the GitHub-ready package to avoid duplication and repository clutter.
+### V4.2
 
-See:
+V4.2 added mathematical Toy Models.
 
-- [docs/07_TOY_MODEL_ARCHIVE_INDEX.md](docs/07_TOY_MODEL_ARCHIVE_INDEX.md)
-- [docs/08_DATA_INVENTORY.md](docs/08_DATA_INVENTORY.md)
+The purpose of V4.2 was to prevent the framework from remaining only philosophical by testing whether the V4 / V4.1 architecture could reproduce selected mathematical structures associated with quantum mechanics, weak-field gravity, and dark-sector phenomenology.
 
-Important distinction:
+V4.2 should therefore be read as:
 
-**Included now:**
-
-- reports,
-- close-out papers,
-- numerical summaries / output data.
-
-**Not yet included as clean reproducible code:**
-
-- standalone simulation scripts,
-- notebooks,
-- raw external observational datasets.
-
-Toy Model 5G should create the first clean public data/code protocol.
-
-### Final Publication Package Note
-
-The Toy Models are included as browsable chapter folders:
-
-- [docs/toy_models/TM1/](docs/toy_models/TM1/)
-- [docs/toy_models/TM2/](docs/toy_models/TM2/)
-- [docs/toy_models/TM3/](docs/toy_models/TM3/)
-- [docs/toy_models/TM4/](docs/toy_models/TM4/)
-- [docs/toy_models/TM5/](docs/toy_models/TM5/)
-
-Toy Model 1 now includes its developmental stages, not only the close-out document.
-
-This archive is an evidence trail and numerical-output record. It is not yet a cleaned reproducible codebase.
+```text
+coherent toy-model structural compatibility
+not:
+validated physical theory
+```
 
 ---
 
-## Strict Non-Claims
+## What the V4.2 Toy Models Tested
+
+The V4.2 Toy Models were created to test whether selected structures from quantum mechanics, gravity, and dark-sector phenomenology can be represented as projected consequences of relational geometry.
+
+They do **not** prove that the 6D Projection Framework is physically true.
+
+They ask limited compatibility questions:
+
+> If observable order is the projection of deeper relational organization, can known physical structures be reproduced as geometric or operational effects of that organization?
+
+The Toy Models should therefore be read as compatibility tests, not final derivations.
+
+---
+
+### Toy Model 1 - Graph Geometry
+
+Toy Model 1 tested whether a relational graph can produce geometry-like behavior.
+
+Instead of beginning with a smooth spacetime metric, it began with:
+
+```text
+nodes
+edges
+edge weights
+path costs
+network density
+```
+
+It explored:
+
+```text
+path delay
+path focusing
+orbit-like capture
+operational distance
+geometry emerging from relational cost
+```
+
+**Geometric interpretation:**
+
+Space is not treated as a fixed container. It is treated as an operational effect of relational access.
+
+A path appears "curved" when the underlying network makes some routes more costly than others. In this sense, geometry can be interpreted as the visible projection of hidden relational organization.
+
+**Compatibility demonstrated:**
+
+A graph-based relational system can produce geometry-like operational effects.
+
+**Guardrail:**
+
+Toy Model 1 does not derive General Relativity. It is a graph-geometric analogue.
+
+---
+
+### Toy Model 2 - Quantum States
+
+Toy Model 2 tested whether selected quantum-state behaviors can be interpreted as relational projection effects rather than as literal destruction of alternatives.
+
+It explored:
+
+```text
+probability normalization
+Bell-type correlations
+decoherence
+measurement update
+quantum erasure
+macroscopic irreversibility
+no-signalling constraints
+```
+
+**Geometric interpretation:**
+
+Collapse is not interpreted as physical destruction of the global state.
+
+It is interpreted as an embedded observer becoming locked into one accessible relational branch of a larger state.
+
+From inside the observable `3S + 1T` projection, the observer experiences one outcome. From the larger relational view, the inaccessible alternatives are not necessarily destroyed; they are outside that observer's stabilized access path.
+
+**Compatibility demonstrated:**
+
+The framework can represent collapse-like behavior as observer-relative relational updating while preserving global consistency and no-signalling.
+
+**Guardrail:**
+
+Toy Model 2 does not derive full quantum mechanics. It shows structural compatibility with selected quantum-state behaviors.
+
+---
+
+### Toy Model 3 - Quantum Dynamics
+
+Toy Model 3 tested whether mathematical structures used in quantum dynamics can be given a geometric interpretation inside the 6D framework.
+
+It explored:
+
+```text
+complex amplitudes
+hidden phase rotation
+Schrodinger-type evolution
+momentum and kinetic operators
+scalar potentials
+gauge phase connection
+relativistic spinor structure
+```
+
+**Geometric interpretation:**
+
+The imaginary unit `i` can be interpreted as a 90-degree rotation operator in a hidden phase plane.
+
+In this interpretation:
+
+```text
+complex phase            -> hidden temporal angle
+amplitude magnitude      -> invariant length measure
+Schrodinger evolution    -> uniform hidden phase rotation
+momentum                 -> spatial twisting of phase
+gauge coupling           -> connection between local phase frames
+```
+
+The purpose is not to replace quantum mechanics, but to ask whether its abstract formal machinery may admit a geometric translation layer.
+
+**Compatibility demonstrated:**
+
+Several abstract quantum structures can be mapped to geometric operations in a hidden transverse temporal phase plane.
+
+**Guardrail:**
+
+Toy Model 3 does not derive the Standard Model, Quantum Field Theory, particle masses, charge values, or physical constants.
+
+---
+
+### Toy Model 4 - Gravity and Spacetime
+
+Toy Model 4 tested whether spacetime-like geometry and weak-field gravitational structure can emerge from relational distance, directed causality, and conservation.
+
+It explored:
+
+```text
+metric extraction from relational distances
+Lorentzian signature from directed 1T causality
+curvature from varying relational density
+stress-energy tensor analogues
+conservation constraints
+trace-reversed spin-2 response
+weak-field Einstein-like structure
+```
+
+**Geometric interpretation:**
+
+Gravity is interpreted as the operational cost of maintaining relational structure.
+
+Curvature appears when the relational cost of moving through the network varies. The Lorentzian minus sign is linked to directed causal ordering rather than ordinary undirected distance.
+
+In plain language:
+
+```text
+relational cost varies
+-> operational distance changes
+-> curvature appears
+-> gravity-like behavior emerges
+```
+
+**Compatibility demonstrated:**
+
+A conserved relational network with directed causal ordering can reproduce key weak-field spin-2 gravitational structures.
+
+**Guardrail:**
+
+Toy Model 4 does not derive full nonlinear General Relativity or the Einstein-Hilbert action. It demonstrates compatibility with a weak-field gravitational analogue.
+
+---
+
+### Toy Model 5 - Dark-Sector Analogues
+
+Toy Model 5 tested whether relational network economics can mimic selected dark-sector signatures.
+
+It explored:
+
+```text
+flat galactic rotation curves
+effective relational tension
+baryonic Tully-Fisher-type scaling
+a universal relational threshold A_R
+cosmic horizon coupling
+dark matter / dark energy as local and global network-capacity effects
+```
+
+**Geometric interpretation:**
+
+Dark Matter-like behavior is interpreted as local relational tension around galactic-scale knots.
+
+Dark Energy-like behavior is interpreted as global background tension of the expanding relational network.
+
+Both are treated as possible scale-dependent expressions of the same relational-capacity principle.
+
+The local galactic analogue can be summarized as:
+
+```text
+v_flat^4 = A_R G M_b
+```
+
+where:
+
+```text
+v_flat = asymptotic flat rotation velocity
+A_R    = universal relational threshold
+G      = gravitational constant
+M_b    = baryonic mass
+```
+
+**Compatibility demonstrated:**
+
+The framework can structurally mimic selected dark-sector phenomena through relational tension and network-capacity limits.
+
+**Guardrail:**
+
+Toy Model 5 does not solve dark matter or dark energy. It had not yet fitted SPARC, CMB, Bullet Cluster, lensing, supernova, BAO, or structure-formation data.
+
+---
+
+## Why Toy Model 5G Was Needed
+
+Toy Models 1-5 showed that the framework could produce several structural analogues:
+
+```text
+Toy Model 1 -> graph geometry
+Toy Model 2 -> quantum-state projection
+Toy Model 3 -> hidden phase geometry
+Toy Model 4 -> weak-field gravitational structure
+Toy Model 5 -> dark-sector capacity analogues
+```
+
+But these were still toy-model compatibility tests.
+
+Toy Model 5G was created as the next responsible step: a real-data diagnostic protocol using SPARC galaxy rotation-curve data.
+
+The purpose of 5G was not to prove the framework correct.
+
+The purpose was to ask:
+
+> When the dark-sector analogue is confronted with real galaxy rotation curves, does the residual behave like a simple missing acceleration, or does it look more like a relational metric / connection reconstruction problem?
+
+That question defines the transition from Toy Model 5 to Toy Model 5G.
+
+---
+
+## Toy Model 5G - Full SPARC Diagnostic Baseline
+
+Toy Model 5G is the first real-data diagnostic extension of the V4.2 framework.
+
+It uses SPARC galaxy rotation-curve data to test whether the dark-sector analogue is better treated as a relational metric / connection reconstruction problem rather than as a direct acceleration correction.
+
+The 5G sequence deliberately records both failures and improvements:
+
+```text
+5G-A to 5G-E  -> scalar threshold, compactness, saturation, and galaxy-wide knot-tension tests
+5G-F to 5G-G  -> nonlocal spatial and mass-space kernel tests
+5G-H          -> inverse residual reconstruction
+5G-I to 5G-K  -> typed scheduling and variational relaxation attempts
+5G-L          -> relational metric reconstruction
+5G-M          -> full-SPARC diagnostic run and validation harness
+5G-N          -> proposed next mathematical step: relational metric generation law
+```
+
+The key reconstructed quantity in 5G-L / 5G-M is:
+
+```text
+chi(R) = ln[g_obs(R) / g_bar(R)]
+```
+
+where:
+
+```text
+g_obs(R) = observed acceleration inferred from the rotation curve
+g_bar(R) = baryonic Newtonian acceleration inferred from visible matter
+chi(R)   = effective metric / connection distortion proxy
+```
+
+This is important because `chi(R)` can represent both cases:
+
+```text
+chi > 0  -> observed acceleration exceeds baryonic baseline
+chi < 0  -> baryonic baseline overshoots observation
+```
+
+That made `chi(R)` a better diagnostic object than a simple positive missing-acceleration field.
+
+---
+
+## Full-SPARC 5G-M Result
+
+The full-SPARC 5G-M run processed:
+
+```text
+175 galaxies
+3391 radial points
+```
+
+Two modes were tested.
+
+### Mode 1 - frozen_four
+
+The four-galaxy 5G-L coefficients were frozen and applied to the full SPARC archive.
+
+```text
+R2 for chi:                       0.4613
+Newtonian baryonic RMS:           58.57 km/s
+5G-M RMS:                         36.46 km/s
+Improved galaxies:                139 / 175
+```
+
+### Mode 2 - train_groupkfold
+
+The same feature structure was tested using galaxy-group holdout validation.
+
+```text
+R2 for chi:                       0.5669
+Newtonian baryonic RMS:           58.57 km/s
+5G-M RMS:                         24.69 km/s
+Improved galaxies:                155 / 175
+```
+
+---
+
+## What the 5G Result Means
+
+The 5G result does **not** mean that the 6D framework is validated.
+
+It does **not** mean that dark matter is solved.
+
+It does **not** mean that Lambda-CDM is replaced.
+
+The result means something narrower and more useful:
+
+> The residual structure in SPARC rotation curves appears more naturally handled as a relational metric / connection reconstruction problem than as a direct missing-acceleration patch.
+
+This makes the next mathematical target clearer.
+
+The next step is not another curve-fitting correction.
+
+The next step is to attempt a generation law for the reconstructed metric / connection distortion.
+
+---
+
+## What This Repository Does Not Claim
 
 This repository does **not** claim that V4.2 has:
 
-- proven physical 3T,
-- derived full quantum mechanics,
-- derived Quantum Field Theory,
-- derived the Standard Model,
-- derived nonlinear General Relativity,
-- derived the Einstein-Hilbert action,
-- derived physical constants,
-- solved dark matter,
-- solved dark energy,
-- replaced Lambda-CDM,
-- disproven particle dark matter,
-- fitted real observational datasets,
-- achieved physical validation.
+```text
+proven physical 3T
+derived full quantum mechanics
+derived Quantum Field Theory
+derived the Standard Model
+derived nonlinear General Relativity
+derived the Einstein-Hilbert action
+derived physical constants
+solved dark matter
+solved dark energy
+replaced Lambda-CDM
+disproven particle dark matter
+achieved physical validation
+```
 
-The current status is:
+Toy Model 5G is a reproducible diagnostic result and a roadmap toward the next mathematical object.
 
-**coherent toy-model structural compatibility**
-
-not:
-
-**validated physical theory**
+It is not a final theory.
 
 ---
 
-## Next Work: 5G
+## Current Roadmap
 
-The next responsible step is not a claim. It is a protocol.
+The next responsible step is:
 
-**Toy Model 5G — Minimal Real-Galaxy Rotation-Curve Fitting Protocol**
+```text
+Toy Model 5G-N - Relational Metric Generation Law
+```
 
-Before fitting any data, 5G must define:
+5G-N should move beyond statistical reconstruction of `chi(R)` and attempt to define a physics-style generation law that maps baryonic organization, topology, and boundary conditions into an effective relational metric / connection field.
 
-- which public dataset will be used,
-- which parameters are allowed,
-- which parameters are fixed globally,
-- what counts as success,
-- what counts as failure,
-- how results will be reproduced,
-- how failures will be reported.
+In plain language:
 
-The goal is to invite falsification, not to force a fit.
+```text
+5G-L / 5G-M found the shadow of the engine.
+5G-N must try to write the engine.
+```
+
+---
+
+## Start Here
+
+For the current 5G public baseline, begin with:
+
+```text
+docs/5G/00_READ_ME_FIRST.md
+docs/5G/Toy_Model_5G_Public_Baseline_Close_Out_and_5G_N_Roadmap.pdf
+docs/5G/Toy_Model_5G-M_Full_SPARC_Run_Results.pdf
+docs/5G/STRICT_NON_CLAIMS.md
+```
+
+For the V4.2 framework baseline, begin with:
+
+```text
+START_HERE.md
+VERSION_HISTORY.md
+docs/papers/
+docs/toy_models/
+```
 
 ---
 
 ## Repository Philosophy
 
+The purpose of this repository is not to declare victory over established physics.
+
+The purpose is to make the assumptions, models, failures, guardrails, and next tests public.
+
+The framework should be tested carefully.
+
+Failures are not hidden. They are part of the method.
+
+The working posture is:
+
+```text
 Here is the framework.
-
 Here are the Toy Models.
-
 Here are the assumptions.
-
+Here are the failures.
 Here are the guardrails.
-
 Here is the roadmap.
-
-Test the framework carefully.
-
----
-
-## Author
-
-Catalin Muresan
-
----
-
-## License
-
-This repository is published under the MIT License.
-
-See [LICENSE](LICENSE).
+Test it carefully.
+```
