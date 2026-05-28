@@ -567,6 +567,29 @@ In plain language:
 5G-L / 5G-M found the shadow of the engine.
 5G-N must try to write the engine.
 ```
+### 5G-N Anti-Leakage Requirement
+
+Toy Model 5G-N must not be another statistical reconstruction of `chi(R)`.
+
+The required next step is to define a generation law of the form:
+
+```text
+chi_model(R) = F[baryonic organization, topology, gradients, boundary conditions]
+```
+
+where `F` is constrained to use baryonic structure only.
+
+In particular, 5G-N must not use the following as input features:
+
+```text
+V_obs(R)
+g_obs(R)
+chi_obs(R)
+fitted dark halo parameters
+per-galaxy rescue parameters
+```
+
+The purpose of 5G-N is to test whether a physics-style relational metric / connection field can be generated from baryonic organization itself, rather than reconstructed from the observed rotation curve after the fact.
 
 ---
 
