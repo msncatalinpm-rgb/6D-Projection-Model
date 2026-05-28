@@ -454,6 +454,7 @@ chi(R) = ln[g_obs(R) / g_bar(R)]
 ```
 
 It is **not** used as an independent predictive feature inside the 5G-M regression feature set.
+Numerically, `chi(R)` is computed only for valid positive acceleration pairs. Any radial point yielding `g_obs(R) <= 0` or `g_bar(R) <= 0` due to local data noise, missing component values, or nonphysical intermediate values must be masked or regularized during the diagnostic sequence before taking the logarithm.
 
 The predictive feature set is restricted to baryonic and structural quantities derived from the SPARC radial tables:
 
@@ -495,7 +496,7 @@ Improved galaxies:                139 / 175
 
 ### Mode 2 - train_groupkfold
 
-The same feature structure was tested using galaxy-group holdout validation.
+The same feature structure was tested using galaxy-group holdout cross-validation as a statistical machine-learning partition, not as physical validation of the 6D framework.
 
 ```text
 R2 for chi:                       0.5669
