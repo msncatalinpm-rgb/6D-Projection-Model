@@ -32,13 +32,21 @@ This is a strong diagnostic improvement. It is not physical validation.
 
 ## Reproducibility Quick Check
 
-To reproduce the headline 5G-M diagnostic run locally, use the committed validation script and SPARC archive:
+To reproduce the headline 5G-M diagnostic run locally, run from the repository root:
 
 ```bash
-cd code/5G
-pip install -r requirements.txt
-python run_5G_M_full_sparc_validation.py
+pip install -r code/5G/requirements.txt
+
+python code/5G/run_5G_M_full_sparc_validation.py --download --mode frozen_four --data-dir data/5G/raw/Rotmod_LTG --out-dir results/5G_M_repro_frozen_four
+
+python code/5G/run_5G_M_full_sparc_validation.py --mode train_groupkfold --data-dir data/5G/raw/Rotmod_LTG --out-dir results/5G_M_repro_train_groupkfold
 ```
+
+The first command installs the required Python packages.
+
+The second command prepares the SPARC `Rotmod_LTG` files if needed and runs the frozen-four diagnostic mode.
+
+The third command runs the galaxy-group holdout diagnostic mode.
 
 The run should process:
 
@@ -63,7 +71,9 @@ Newtonian baryonic RMS:     58.57 km/s
 Improved galaxies:          155 / 175
 ```
 
-If these values change after future edits, the change should be documented in the results folder and in the release notes. The current 5G-M package should not be described as a validation claim; it is a reproducible diagnostic baseline.
+If these values change after future edits, the change should be documented in the results folder and in the release notes.
+
+The current 5G-M package should not be described as a validation claim; it is a reproducible diagnostic baseline.
 
 ## What to read first
 
