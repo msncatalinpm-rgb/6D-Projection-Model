@@ -1,0 +1,12 @@
+id,method,params,chi,red,conclusion
+5G-A,One global A_R threshold; standard algebraic interpolation,A_R=3510.6404 (km/s)^2/kpc = 1.1377e-10 m/s^2,7960.83,63.181,Clean first falsification protocol. Massive spiral NGC2841 underfit; not validation.
+5G-B,Global compactness response: A_eff(R)=A_R[1+beta Q(R)],A_R=3117.529; beta=1.4476; g_ref=1e-10 m/s^2 fixed,6188.944,49.512,"Improved NGC2841 and DDO154, but worsened NGC3198."
+5G-C,Residual anatomy; inner/transition/outer zone diagnostic,No new fit; reused 5G-A/5G-B parameters,N/A,N/A,"Showed NGC3198 worsened mainly in the inner zone, not transition zone."
+5G-D,Saturated compactness response: S=1+beta Q/(1+Q),A_R=2944.652; beta=2.9234; g_ref fixed,6310.437,50.483,Saturation did not beat 5G-B. Useful failed branch.
+5G-E,"Global knot-tension: A_eff,g = A_R*(M_b/M_ref)^alpha",A_R=3502.118; alpha=0.1057; M_ref=1e10 Msun fixed,6045.229,48.362,Geometrically cleaner; improves global chi-square vs B/D but still does not solve sample.
+5G-F,Nonlocal spatial kernel: exp(-|R_i-R_j|/L_rel),A_R=2839.003; beta=2.2198; L_rel=26.913 kpc,5393.734,43.498,Best forward branch through F. Nonlocal web direction useful; NGC3198 still fails.
+5G-G,Relational mass-space kernel: exp(-|M_eff_i-M_eff_j|/M_rel),A_R=2878.743; beta=1.9021; M_rel=1e13 Msun upper bound,5523.720,44.546,Mass-space ruler tested. Did not beat 5G-F; broad kernel acts like averaging.
+5G-H,Inverse engine reconstruction; extracted g_rel = g_obs - g_bar,No forward A_R fit; empirical positive-branch power law R2=0.699,N/A,N/A,Found negative g_rel points in inner NGC3198; hidden engine cannot be a purely positive additive field.
+5G-I,Typed dependency graph: FS/SS/FF and constrained SF,"I.1 a_FS=3.7847, a_SS=-2.0, a_FF=0.1340; I.2 a_SF~0",19639.009,160.975 / 162.306,Failed badly. SF did not activate under gated rule. Typed matrix too crude.
+5G-J,Relational tensegrity direct acceleration relaxation: (I+lambda L)^-1 g_bar,M_rel=1.720e10 Msun; lambda=0.3941,217003.665,1736.029,Failed badly. Smoothing acceleration is not the engine.
+5G-K,"Variational potential relaxation: relax Phi, then gradient to g_model",M_rel=9.142e6 Msun; lambda=2.0675,273407.777,2187.262,Failed badly. Simple quadratic Laplacian potential smoothing is not the engine.

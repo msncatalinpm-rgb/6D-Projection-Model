@@ -1,0 +1,31 @@
+{
+  "protocol": "Toy Model 5G-M - Full SPARC run using uploaded Rotmod_LTG.zip",
+  "data_file": "Rotmod_LTG.zip uploaded by user and staged locally",
+  "n_galaxies_frozen": 175,
+  "n_points_frozen": 3391,
+  "frozen_four": {
+    "mode": "frozen_four",
+    "note": "Frozen coefficients from the 5G-L four-galaxy baseline applied to all available galaxies.",
+    "n_galaxies": 175,
+    "n_points": 3391,
+    "R2_metric_chi": 0.46126122064897945,
+    "RMSE_metric_chi": 0.5215903100046642,
+    "global_RMS_5G_M_km_s": 36.45892135420381,
+    "global_RMS_Newtonian_km_s": 58.57354108339375,
+    "negative_g_rel_points": 218
+  },
+  "train_groupkfold": {
+    "mode": "train_groupkfold",
+    "note": "Five-fold group holdout by galaxy using the frozen 5G-L feature set and ridge alpha=100.",
+    "n_galaxies": 175,
+    "n_points": 3391,
+    "R2_metric_chi": 0.5669447082124677,
+    "RMSE_metric_chi": 0.46764045085467576,
+    "global_RMS_5G_M_km_s": 24.690703857038542,
+    "global_RMS_Newtonian_km_s": 58.57354108339375,
+    "negative_g_rel_points": 218
+  },
+  "frozen_galaxies_improved_vs_newtonian": 139,
+  "groupkfold_galaxies_improved_vs_newtonian": 155,
+  "status": "Full 175-galaxy SPARC run completed. This is a strong diagnostic result, not physical validation."
+}
