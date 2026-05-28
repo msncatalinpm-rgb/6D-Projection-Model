@@ -30,6 +30,41 @@ Toy Model 5G-M ran on **175 SPARC galaxies** and **3391 radial points** from `Ro
 
 This is a strong diagnostic improvement. It is not physical validation.
 
+## Reproducibility Quick Check
+
+To reproduce the headline 5G-M diagnostic run locally, use the committed validation script and SPARC archive:
+
+```bash
+cd code/5G
+pip install -r requirements.txt
+python run_5G_M_full_sparc_validation.py
+```
+
+The run should process:
+
+```text
+175 galaxies
+3391 radial points
+```
+
+The headline outputs expected from the current committed baseline are:
+
+```text
+Mode 1: frozen_four
+R2 for chi:                 0.4613
+Newtonian baryonic RMS:     58.57 km/s
+5G-M RMS:                   36.46 km/s
+Improved galaxies:          139 / 175
+
+Mode 2: train_groupkfold
+R2 for chi:                 0.5669
+Newtonian baryonic RMS:     58.57 km/s
+5G-M RMS:                   24.69 km/s
+Improved galaxies:          155 / 175
+```
+
+If these values change after future edits, the change should be documented in the results folder and in the release notes. The current 5G-M package should not be described as a validation claim; it is a reproducible diagnostic baseline.
+
 ## What to read first
 
 1. `docs/public_baseline/Toy_Model_5G_Public_Baseline_Close_Out_and_5G_N_Roadmap.pdf`
