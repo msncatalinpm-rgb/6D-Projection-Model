@@ -442,7 +442,7 @@ V_bulge(R)     = bulge contribution, where present
 g_obs(R)       = V_obs(R)^2 / R
 g_bar(R)       = [V_gas(R)^2 + Upsilon_disk V_disk(R)^2 + Upsilon_bulge V_bulge(R)^2] / R
 chi(R)         = ln[g_obs(R) / g_bar(R)]
----
+```
 
 ## Full-SPARC 5G-M Result
 
