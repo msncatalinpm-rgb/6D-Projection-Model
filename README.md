@@ -445,6 +445,31 @@ g_obs(R)       = V_obs(R)^2 / R
 g_bar(R)       = [V_gas(R)^2 + Upsilon_disk V_disk(R)^2 + Upsilon_bulge V_bulge(R)^2] / R
 chi(R)         = ln[g_obs(R) / g_bar(R)]
 ```
+### Data Leakage Guardrail
+
+In 5G-M, `g_obs(R)` is used to construct the diagnostic target:
+
+```text
+chi(R) = ln[g_obs(R) / g_bar(R)]
+```
+
+It is **not** used as an independent predictive feature inside the 5G-M regression feature set.
+
+The predictive feature set is restricted to baryonic and structural quantities derived from the SPARC radial tables:
+
+```text
+log_gbar
+log_Meff
+log_Mtotal
+log_R
+log_Sigma_eff
+slope_g_bar_internal
+slope_Meff_Msun
+```
+
+This means 5G-M should be read as a cross-validated reconstruction of the residual metric proxy `chi(R)`, not as a forward physical law.
+
+The next-stage requirement for 5G-N is stricter: any proposed generation law must predict the relational metric / connection field from baryonic organization alone, without using `V_obs(R)`, `g_obs(R)`, or `chi(R)` as input features.
 
 ## Full-SPARC 5G-M Result
 
