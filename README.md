@@ -291,6 +291,8 @@ Gravity is interpreted as the operational cost of maintaining relational structu
 
 Curvature appears when the relational cost of moving through the network varies. The Lorentzian minus sign is linked to directed causal ordering rather than ordinary undirected distance.
 
+In this toy-model interpretation, the Lorentzian character is not assumed to arise from ordinary symmetric graph distance. It is associated with directed causal access: asymmetric relational edges distinguish causal ordering from undirected spatial separation.
+
 In plain language:
 
 ```text
