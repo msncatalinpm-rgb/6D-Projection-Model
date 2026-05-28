@@ -425,6 +425,23 @@ chi < 0  -> baryonic baseline overshoots observation
 
 That made `chi(R)` a better diagnostic object than a simple positive missing-acceleration field.
 
+### 5G-M Feature Disclosure
+
+To reduce the risk of misreading the 5G-M result as an unconstrained machine-learning fit, the diagnostic input structure is intentionally limited.
+
+The 5G-M reconstruction does **not** use dark halo parameters, per-galaxy fitted halo profiles, manually tuned galaxy-specific correction terms, or hidden rescue variables.
+
+The allowed inputs are derived from the SPARC rotation-curve tables and baryonic components:
+
+```text
+R              = radial coordinate
+V_obs(R)       = observed rotation velocity
+V_gas(R)       = gas contribution
+V_disk(R)      = stellar disk contribution
+V_bulge(R)     = bulge contribution, where present
+g_obs(R)       = V_obs(R)^2 / R
+g_bar(R)       = [V_gas(R)^2 + Upsilon_disk V_disk(R)^2 + Upsilon_bulge V_bulge(R)^2] / R
+chi(R)         = ln[g_obs(R) / g_bar(R)]
 ---
 
 ## Full-SPARC 5G-M Result
